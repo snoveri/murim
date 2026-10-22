@@ -1,0 +1,264 @@
+﻿{
+    "version":  "0.4.0",
+    "date":  "2026-10-22",
+    "eventDefinitions":  120,
+    "checks":  [
+                   {
+                       "name":  "All sixteen v0.3.2 chapter definitions remain available",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "An anonymous courier becomes a courier NPC, not a randomly relabelled parent",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Missing investigation target becomes an ordinary journey",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "A wrong-place clue warns and pauses rather than silently repeating forever",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "A v0.3.2 chapter binds its actor through a delayed saved return",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "A deceased chapter actor is remembered without offering a new meeting",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Direct Namgung bloodline is never labelled an external surname disciple",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Twelve representative lives retain valid saves and civilian independence",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Twelve representative lives contain no malformed prose",
+                       "pass":  true
+                   },
+                   {
+                       "name":  "Exact prose reuse remains absent in the twelve reference lives",
+                       "pass":  true
+                   }
+               ],
+    "pass":  10,
+    "fail":  0,
+    "scenarios":  [
+                      {
+                          "seed":  "2776852732-2212974314",
+                          "policy":  "martial",
+                          "age":  79,
+                          "alive":  false,
+                          "sceneLines":  568,
+                          "sceneUnique":  568,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  284,
+                          "choices":  49,
+                          "memories":  2,
+                          "closedMemories":  2,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "12441362",
+                          "policy":  "civil",
+                          "age":  74,
+                          "alive":  false,
+                          "sceneLines":  528,
+                          "sceneUnique":  528,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  264,
+                          "choices":  23,
+                          "memories":  7,
+                          "closedMemories":  7,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "sword-07",
+                          "policy":  "martial",
+                          "age":  81,
+                          "alive":  false,
+                          "sceneLines":  584,
+                          "sceneUnique":  584,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  292,
+                          "choices":  49,
+                          "memories":  4,
+                          "closedMemories":  4,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "explore-9",
+                          "policy":  "martial",
+                          "age":  90,
+                          "alive":  true,
+                          "sceneLines":  660,
+                          "sceneUnique":  660,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  330,
+                          "choices":  49,
+                          "memories":  3,
+                          "closedMemories":  3,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "craft-98",
+                          "policy":  "civil",
+                          "age":  52,
+                          "alive":  false,
+                          "sceneLines":  352,
+                          "sceneUnique":  352,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  176,
+                          "choices":  17,
+                          "memories":  5,
+                          "closedMemories":  5,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "farming-1",
+                          "policy":  "civil",
+                          "age":  81,
+                          "alive":  false,
+                          "sceneLines":  584,
+                          "sceneUnique":  584,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  292,
+                          "choices":  24,
+                          "memories":  8,
+                          "closedMemories":  8,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "wander-100",
+                          "policy":  "martial",
+                          "age":  90,
+                          "alive":  false,
+                          "sceneLines":  656,
+                          "sceneUnique":  656,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  328,
+                          "choices":  48,
+                          "memories":  2,
+                          "closedMemories":  2,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "family-1",
+                          "policy":  "civil",
+                          "age":  78,
+                          "alive":  false,
+                          "sceneLines":  560,
+                          "sceneUnique":  560,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  280,
+                          "choices":  25,
+                          "memories":  6,
+                          "closedMemories":  6,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "road-2",
+                          "policy":  "martial",
+                          "age":  41,
+                          "alive":  false,
+                          "sceneLines":  264,
+                          "sceneUnique":  264,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  132,
+                          "choices":  19,
+                          "memories":  2,
+                          "closedMemories":  2,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "body-3",
+                          "policy":  "martial",
+                          "age":  85,
+                          "alive":  false,
+                          "sceneLines":  616,
+                          "sceneUnique":  616,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  308,
+                          "choices":  50,
+                          "memories":  5,
+                          "closedMemories":  5,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "hero-11",
+                          "policy":  "martial",
+                          "age":  51,
+                          "alive":  false,
+                          "sceneLines":  344,
+                          "sceneUnique":  344,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  172,
+                          "choices":  30,
+                          "memories":  5,
+                          "closedMemories":  5,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      },
+                      {
+                          "seed":  "roads-22",
+                          "policy":  "civil",
+                          "age":  24,
+                          "alive":  false,
+                          "sceneLines":  128,
+                          "sceneUnique":  128,
+                          "exactDuplicates":  0,
+                          "ledgerLines":  64,
+                          "choices":  7,
+                          "memories":  0,
+                          "closedMemories":  0,
+                          "valid":  true,
+                          "malformed":  0,
+                          "nonmartial":  true
+                      }
+                  ],
+    "fatigue":  [
+                    {
+                        "action":  "work",
+                        "samples":  120,
+                        "thirdYearQuarterObservations":  480,
+                        "thirdYearMean":  34.582
+                    },
+                    {
+                        "action":  "sword",
+                        "samples":  120,
+                        "thirdYearQuarterObservations":  480,
+                        "thirdYearMean":  36.172
+                    },
+                    {
+                        "action":  "inner",
+                        "samples":  120,
+                        "thirdYearQuarterObservations":  480,
+                        "thirdYearMean":  34.582
+                    }
+                ],
+    "note":  "Exact-string reuse is measured; semantic variation and human reading time still need playtesting."
+}

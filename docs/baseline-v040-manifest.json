@@ -1,0 +1,309 @@
+{
+    "source":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype (2).zip",
+    "sourceSha256":  "BCB90EDDD9ABBE6193E14D5C8F336B421AD9F9300F408B80BDCC474800FC80B2",
+    "version":  "0.4.0",
+    "captured":  "2026-10-22T10:24:20.1323358+09:00",
+    "files":  [
+                  {
+                      "path":  "docs/balance-report.json",
+                      "bytes":  1871756,
+                      "zipSha256":  "9D6D2146AB3741293021FCA44499A896C6E19BE6D65423A800D3E66B87018A44",
+                      "workspaceSha256":  "9D6D2146AB3741293021FCA44499A896C6E19BE6D65423A800D3E66B87018A44",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/balance-runs.csv",
+                      "bytes":  1489618,
+                      "zipSha256":  "12CC90B99F1CFB10D26CA31AAE0F629D71F005E7AA592DDF31A63073AEF1CD7C",
+                      "workspaceSha256":  "12CC90B99F1CFB10D26CA31AAE0F629D71F005E7AA592DDF31A63073AEF1CD7C",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/BALANCE-v030.md",
+                      "bytes":  13648,
+                      "zipSha256":  "9DC667178293B2833314ACEA91B44722A2505F6C3724C64085AD7726A5C7C9BA",
+                      "workspaceSha256":  "9DC667178293B2833314ACEA91B44722A2505F6C3724C64085AD7726A5C7C9BA",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/BALANCE-v031.md",
+                      "bytes":  13165,
+                      "zipSha256":  "E7B6078B90BF57E152D4EEFDAE40836C0BB120A2CC371542448765929F1C6D13",
+                      "workspaceSha256":  "E7B6078B90BF57E152D4EEFDAE40836C0BB120A2CC371542448765929F1C6D13",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/BALANCE.md",
+                      "bytes":  3444,
+                      "zipSha256":  "DAE28B7FCE36887128204E21E31AB10734D07D8A7AE683AB6034681829ADE6AD",
+                      "workspaceSha256":  "DAE28B7FCE36887128204E21E31AB10734D07D8A7AE683AB6034681829ADE6AD",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/fixtures-v032.json",
+                      "bytes":  49864,
+                      "zipSha256":  "07F7ECFCC8982DEEB39AE96B2BB6D9926FA4303872A5BE6EAE337CB241AA6041",
+                      "workspaceSha256":  "07F7ECFCC8982DEEB39AE96B2BB6D9926FA4303872A5BE6EAE337CB241AA6041",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/INTEGRATION-v040.md",
+                      "bytes":  4047,
+                      "zipSha256":  "0624F3615D20C7929D58278128E3FAD616D2C57B2783EDB4C6F1483F8160D3E6",
+                      "workspaceSha256":  "0624F3615D20C7929D58278128E3FAD616D2C57B2783EDB4C6F1483F8160D3E6",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/korean-muhyeop-research-2026-10-21.json",
+                      "bytes":  88198,
+                      "zipSha256":  "06DE7923AE4E879C6BD03182CE4A0EE8A3DE1CD7F1C8AA13585F445E064000B6",
+                      "workspaceSha256":  "06DE7923AE4E879C6BD03182CE4A0EE8A3DE1CD7F1C8AA13585F445E064000B6",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/leadership-study.json",
+                      "bytes":  1501948,
+                      "zipSha256":  "454DA3C8D86532CAD173373A259670768CD48F3EDAD084A0CF68BAEAC5B18468",
+                      "workspaceSha256":  "454DA3C8D86532CAD173373A259670768CD48F3EDAD084A0CF68BAEAC5B18468",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/narrative-study.json",
+                      "bytes":  11266,
+                      "zipSha256":  "6F11758BA0DC84F22E5E4C100A7B6BA77A494E273B59AEB2830F0BF6A0B3029B",
+                      "workspaceSha256":  "6F11758BA0DC84F22E5E4C100A7B6BA77A494E273B59AEB2830F0BF6A0B3029B",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/playtest-feedback-v001.json",
+                      "bytes":  10100,
+                      "zipSha256":  "EE3B50B0DC84CB72BD00777DEC20E95878DA4C66497C76DD4E0173F5169F9B55",
+                      "workspaceSha256":  "EE3B50B0DC84CB72BD00777DEC20E95878DA4C66497C76DD4E0173F5169F9B55",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/PLAYTEST-FEEDBACK-v031.md",
+                      "bytes":  8463,
+                      "zipSha256":  "7D34CE35D88500032468470B9D57319394105EDC5731D87D8C46B32884190CE4",
+                      "workspaceSha256":  "7D34CE35D88500032468470B9D57319394105EDC5731D87D8C46B32884190CE4",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/playtest-feedback-v032.json",
+                      "bytes":  13754,
+                      "zipSha256":  "AE96FB1CD58FE5F8DDF654D2B19AC74098F5D1DCB601882003D7BF5063B42A48",
+                      "workspaceSha256":  "AE96FB1CD58FE5F8DDF654D2B19AC74098F5D1DCB601882003D7BF5063B42A48",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/PLAYTEST-FEEDBACK.md",
+                      "bytes":  2775,
+                      "zipSha256":  "A931DB2642F1CE11FA70E7077B4032ADC23928399C1B75F7EE32F88E7FC4E901",
+                      "workspaceSha256":  "A931DB2642F1CE11FA70E7077B4032ADC23928399C1B75F7EE32F88E7FC4E901",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/release-manifest.json",
+                      "bytes":  2724,
+                      "zipSha256":  "FEED653210B7AADD2B01E8D520B10AE1F4B4DD446256476879A73738FB35070C",
+                      "workspaceSha256":  "FEED653210B7AADD2B01E8D520B10AE1F4B4DD446256476879A73738FB35070C",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/research-application-plan-2026-10-21.json",
+                      "bytes":  43143,
+                      "zipSha256":  "8A7699EF0FE8E7840629663447DAA5B0070530E6906AEC48F35B04FFAFE4C52D",
+                      "workspaceSha256":  "8A7699EF0FE8E7840629663447DAA5B0070530E6906AEC48F35B04FFAFE4C52D",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/sheet-integration-v040.json",
+                      "bytes":  14064,
+                      "zipSha256":  "9332505C2A481AAA3028ADACDEEEA427439B390D63771CA00D3C639E40655856",
+                      "workspaceSha256":  "9332505C2A481AAA3028ADACDEEEA427439B390D63771CA00D3C639E40655856",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/source-sheet-legacy.json",
+                      "bytes":  151938,
+                      "zipSha256":  "C14EEFF2783BB74821690295BA204D8B7E8BFD28B1E8FD7EC32306ED1D9C4BA4",
+                      "workspaceSha256":  "C14EEFF2783BB74821690295BA204D8B7E8BFD28B1E8FD7EC32306ED1D9C4BA4",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/source-sheet-supplement.json",
+                      "bytes":  55082,
+                      "zipSha256":  "DC7F5AF98B51DDB2CF72F07F4651C6CE85689CFA770EC58DFDE0654E71988C30",
+                      "workspaceSha256":  "DC7F5AF98B51DDB2CF72F07F4651C6CE85689CFA770EC58DFDE0654E71988C30",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/source-sheet.json",
+                      "bytes":  133542,
+                      "zipSha256":  "28EF5125F6305CAB4E44431211417E1A37C55B1667EDF4A75C1A44B1D501E21B",
+                      "workspaceSha256":  "28EF5125F6305CAB4E44431211417E1A37C55B1667EDF4A75C1A44B1D501E21B",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/ui-verification.json",
+                      "bytes":  30804,
+                      "zipSha256":  "4C7AE8CD0E268965CC6F3B2FAD6F2735A70C57B59237566FB824264DCDC293C2",
+                      "workspaceSha256":  "4C7AE8CD0E268965CC6F3B2FAD6F2735A70C57B59237566FB824264DCDC293C2",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/verification-v040.json",
+                      "bytes":  33766,
+                      "zipSha256":  "DCC222E089EC4CA92B93B8A2C193BC107C2679172D8617484FCD543B22189A94",
+                      "workspaceSha256":  "DCC222E089EC4CA92B93B8A2C193BC107C2679172D8617484FCD543B22189A94",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "docs/WORLD.md",
+                      "bytes":  12050,
+                      "zipSha256":  "D7C760785513309E081D204C3A53625B92835A7EE7153F1C07DCF5DDAD251E36",
+                      "workspaceSha256":  "D7C760785513309E081D204C3A53625B92835A7EE7153F1C07DCF5DDAD251E36",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "engine.js",
+                      "bytes":  166239,
+                      "zipSha256":  "7EC199C6C8167A52E83232352BE49A4E0658C8E126EC3111FC853E2C96EE12DC",
+                      "workspaceSha256":  "7EC199C6C8167A52E83232352BE49A4E0658C8E126EC3111FC853E2C96EE12DC",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "feedback-ui.js",
+                      "bytes":  23480,
+                      "zipSha256":  "1EE0EC71C09E9EE2E87AFF5D2A9C6DD06B8F732615E41214EF7E281EC03015A4",
+                      "workspaceSha256":  "1EE0EC71C09E9EE2E87AFF5D2A9C6DD06B8F732615E41214EF7E281EC03015A4",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "feedback.css",
+                      "bytes":  5263,
+                      "zipSha256":  "B9C1795393D216FAE88D52E6B81B84BEB1A5C363BDA1AB278D5885A550F93774",
+                      "workspaceSha256":  "B9C1795393D216FAE88D52E6B81B84BEB1A5C363BDA1AB278D5885A550F93774",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "game.css",
+                      "bytes":  5359,
+                      "zipSha256":  "B8384F096604EB75227FC6E5ACFF44312ED2F941CFCBBEB381F5DEA36621E00C",
+                      "workspaceSha256":  "B8384F096604EB75227FC6E5ACFF44312ED2F941CFCBBEB381F5DEA36621E00C",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "game.js",
+                      "bytes":  40082,
+                      "zipSha256":  "702EECED7437E98E1F636A12D181E5186AF2276409ADFD1A0BC795507AC2C6EA",
+                      "workspaceSha256":  "702EECED7437E98E1F636A12D181E5186AF2276409ADFD1A0BC795507AC2C6EA",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "index.html",
+                      "bytes":  2149,
+                      "zipSha256":  "5F1932FFAD659444434DE7708553DC8AC6C09BA2A909400FD185D0F97B858F6F",
+                      "workspaceSha256":  "5F1932FFAD659444434DE7708553DC8AC6C09BA2A909400FD185D0F97B858F6F",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "life-panels.css",
+                      "bytes":  5386,
+                      "zipSha256":  "C28F501797D64C8B4FEFA67581176E99B562C0BDEA3B47F9B8B0328CD3380A1E",
+                      "workspaceSha256":  "C28F501797D64C8B4FEFA67581176E99B562C0BDEA3B47F9B8B0328CD3380A1E",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "life-panels.js",
+                      "bytes":  20290,
+                      "zipSha256":  "243BACC76E5B61EC24B91E74C32154FC146B4AB958A08FD778C084160C850A7A",
+                      "workspaceSha256":  "243BACC76E5B61EC24B91E74C32154FC146B4AB958A08FD778C084160C850A7A",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  4466,
+                      "zipSha256":  "01DE0C2A95238B3905E4C279E34881E5C70A8516E2AAEE4AD8AAE63D81054977",
+                      "workspaceSha256":  "01DE0C2A95238B3905E4C279E34881E5C70A8516E2AAEE4AD8AAE63D81054977",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "story-pool.js",
+                      "bytes":  38537,
+                      "zipSha256":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC",
+                      "workspaceSha256":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "styles.css",
+                      "bytes":  39360,
+                      "zipSha256":  "F5F05A4229984D4CD68CFDAAA8CD259AD07F84702BDF70C5F0016B51122795E9",
+                      "workspaceSha256":  "F5F05A4229984D4CD68CFDAAA8CD259AD07F84702BDF70C5F0016B51122795E9",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/game-qa.js",
+                      "bytes":  29518,
+                      "zipSha256":  "8E8C00208C2CD508048794A3948C74B896A1EEEB6AB71C304A7009F6BC90F5A2",
+                      "workspaceSha256":  "8E8C00208C2CD508048794A3948C74B896A1EEEB6AB71C304A7009F6BC90F5A2",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/legacy-migration-qa.js",
+                      "bytes":  2157,
+                      "zipSha256":  "737C21645FEB7452DCECF94185D432272B8EB3C0273CF9D4D6DF3467E101886F",
+                      "workspaceSha256":  "737C21645FEB7452DCECF94185D432272B8EB3C0273CF9D4D6DF3467E101886F",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/merge-v032.ps1",
+                      "bytes":  1972,
+                      "zipSha256":  "A249E35119A57D826A3EDA02888B3483AC99599BB907035D11340313DBD4FF48",
+                      "workspaceSha256":  "A249E35119A57D826A3EDA02888B3483AC99599BB907035D11340313DBD4FF48",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/narrative-study.js",
+                      "bytes":  5769,
+                      "zipSha256":  "40EB0BD639DB82A778DCBDC35AB22F3E551ADF8ECC65B30613CE91957B0336F5",
+                      "workspaceSha256":  "40EB0BD639DB82A778DCBDC35AB22F3E551ADF8ECC65B30613CE91957B0336F5",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/package-release.ps1",
+                      "bytes":  3994,
+                      "zipSha256":  "4E60BCEDA8B7A52225C1A185A51374A776D4C92AFD6C451596BF8FE4523BB832",
+                      "workspaceSha256":  "4E60BCEDA8B7A52225C1A185A51374A776D4C92AFD6C451596BF8FE4523BB832",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/simulate.js",
+                      "bytes":  9403,
+                      "zipSha256":  "E07EA1D8C1B7B1AE7F9D1AC7FA0EEFCCD4A59806055BCD73F90426D0E6E3CCEF",
+                      "workspaceSha256":  "E07EA1D8C1B7B1AE7F9D1AC7FA0EEFCCD4A59806055BCD73F90426D0E6E3CCEF",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/story-ui-qa.js",
+                      "bytes":  4758,
+                      "zipSha256":  "0233B32137A7FF88A8DE2785687AFC0891E8E77AB387586AE08B6A05A21B41B0",
+                      "workspaceSha256":  "0233B32137A7FF88A8DE2785687AFC0891E8E77AB387586AE08B6A05A21B41B0",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/verify-ui.ps1",
+                      "bytes":  13580,
+                      "zipSha256":  "0D64935BA9C72FE7CECCEA3A93CF1F5D6B589743D6FCA388311E13825291C234",
+                      "workspaceSha256":  "0D64935BA9C72FE7CECCEA3A93CF1F5D6B589743D6FCA388311E13825291C234",
+                      "identical":  true
+                  },
+                  {
+                      "path":  "tools/write-release-report.ps1",
+                      "bytes":  14358,
+                      "zipSha256":  "E604FD3F7CCBCEBB1173369EB825F4AB1C1BC251166D6DC928EBD7022920FBE5",
+                      "workspaceSha256":  "E604FD3F7CCBCEBB1173369EB825F4AB1C1BC251166D6DC928EBD7022920FBE5",
+                      "identical":  true
+                  }
+              ]
+}

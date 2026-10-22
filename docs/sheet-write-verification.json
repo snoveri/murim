@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "url": "https://docs.google.com/spreadsheets/d/137UTlEWA58UFarvoqY4WB9U0qy-Jwza9rA037tjBn3c/edit",
+  "originalTabs": 63,
+  "currentTabs": 67,
+  "checks": [
+    {
+      "sheet": "42_v040_코드구현실사",
+      "rows": 1428,
+      "columns": 14,
+      "valuesVerified": true
+    },
+    {
+      "sheet": "43_v040_설정충돌",
+      "rows": 38,
+      "columns": 10,
+      "valuesVerified": true
+    },
+    {
+      "sheet": "44_v040_개발진행현황",
+      "rows": 23,
+      "columns": 10,
+      "valuesVerified": true
+    },
+    {
+      "sheet": "45_v040_테스트케이스",
+      "rows": 491,
+      "columns": 9,
+      "valuesVerified": true
+    }
+  ],
+  "visualRender": "unavailable; native cell styles inspected"
+}

@@ -1,0 +1,592 @@
+﻿{
+    "version":  "0.4.0",
+    "date":  "2026-10-22",
+    "engineSha256":  "7EC199C6C8167A52E83232352BE49A4E0658C8E126EC3111FC853E2C96EE12DC",
+    "storyPoolSha256":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC",
+    "testsPassed":  142,
+    "testsFailed":  0,
+    "layouts":  34,
+    "overflowCases":  0,
+    "standardSamples":  10008,
+    "leadershipSamples":  1152,
+    "standardViolations":  0,
+    "leadershipViolations":  0,
+    "eventDefinitions":  120,
+    "overall":  {
+                    "n":  10008,
+                    "survival60":  83.3,
+                    "deathAge":  {
+                                     "p10":  52,
+                                     "p50":  76,
+                                     "p90":  92
+                                 },
+                    "at60":  {
+                                 "n":  8337,
+                                 "inner":  {
+                                               "p50":  1.03,
+                                               "p90":  2.432,
+                                               "p99":  3.116
+                                           },
+                                 "career":  {
+                                                "p10":  3.561,
+                                                "p50":  44.51,
+                                                "p90":  76.304,
+                                                "over90":  0
+                                            },
+                                 "wealth":  {
+                                                "p10":  196.679,
+                                                "p50":  408.895,
+                                                "p90":  635.32
+                                            },
+                                 "ranks":  [
+                                               {
+                                                   "rank":  "일반인",
+                                                   "n":  1417
+                                               },
+                                               {
+                                                   "rank":  "삼류",
+                                                   "n":  492
+                                               },
+                                               {
+                                                   "rank":  "이류",
+                                                   "n":  5742
+                                               },
+                                               {
+                                                   "rank":  "일류",
+                                                   "n":  681
+                                               },
+                                               {
+                                                   "rank":  "절정",
+                                                   "n":  5
+                                               },
+                                               {
+                                                   "rank":  "초절정",
+                                                   "n":  0
+                                               },
+                                               {
+                                                   "rank":  "화경",
+                                                   "n":  0
+                                               }
+                                           ],
+                                 "leadership":  0,
+                                 "seniorInner":  {
+                                                     "n":  468,
+                                                     "p50":  2.78,
+                                                     "p90":  3.18
+                                                 }
+                             },
+                    "family":  {
+                                   "everMarriedPercent":  84.63,
+                                   "survivingSpousePercent":  28.26,
+                                   "childrenP50":  1
+                               },
+                    "transitionsPercent":  21.34,
+                    "debtAt60Percent":  1.31,
+                    "eventualLeadership":  336,
+                    "events":  {
+                                   "at60P50":  26,
+                                   "at60P90":  37,
+                                   "p50":  32,
+                                   "p90":  45
+                               },
+                    "minutes":  {
+                                    "activeP50":  13.6,
+                                    "with12secChoicesP50":  20,
+                                    "with12secChoicesP90":  24.8
+                                },
+                    "narrative":  {
+                                      "memoriesP50":  9,
+                                      "closedP50":  8,
+                                      "roots":  {
+                                                    "friend":  7090,
+                                                    "waybill":  2541,
+                                                    "oldLetter":  4630,
+                                                    "physician":  1576,
+                                                    "chain-mentor":  3780,
+                                                    "pilgrim":  2578,
+                                                    "advice":  692,
+                                                    "transmission":  4273,
+                                                    "mentorloss":  5419,
+                                                    "familydebt":  2978,
+                                                    "escort":  2828,
+                                                    "chain-village":  466,
+                                                    "training-advice":  5996,
+                                                    "bladeoath":  2384,
+                                                    "craftorder":  973,
+                                                    "sect-warning":  1641,
+                                                    "sect-life-gaebang":  967,
+                                                    "sect-life-huashan":  337,
+                                                    "sect-life-shaolin":  370,
+                                                    "trade":  808,
+                                                    "inkseal":  2267,
+                                                    "chain-guest":  1941,
+                                                    "parent":  3205,
+                                                    "business":  927,
+                                                    "first-pupil":  917,
+                                                    "masterwork":  1132,
+                                                    "sect-life-wudang":  357,
+                                                    "sect-life-blood":  824,
+                                                    "herbs":  974,
+                                                    "chain-family":  995,
+                                                    "grainbook":  1256,
+                                                    "guest":  699,
+                                                    "sect-life-heuksa":  398,
+                                                    "sect-life-demon":  818,
+                                                    "leader-dispute":  60,
+                                                    "sect-life-namgung":  360,
+                                                    "bandit":  275,
+                                                    "retired-letter":  75,
+                                                    "pupil":  953,
+                                                    "leader-heir":  13
+                                                }
+                                  },
+                    "causes":  {
+                                   "급작스러운 병환":  1267,
+                                   "노환":  8440,
+                                   "전투 중 입은 치명상":  85,
+                                   "난세의 사고":  216
+                               }
+                },
+    "civilian":  {
+                     "n":  1668,
+                     "survival60":  83.81,
+                     "deathAge":  {
+                                      "p10":  52,
+                                      "p50":  77,
+                                      "p90":  93
+                                  },
+                     "at60":  {
+                                  "n":  1398,
+                                  "inner":  {
+                                                "p50":  0,
+                                                "p90":  0,
+                                                "p99":  0
+                                            },
+                                  "career":  {
+                                                 "p10":  70.402,
+                                                 "p50":  76.918,
+                                                 "p90":  81.974,
+                                                 "over90":  0
+                                             },
+                                  "wealth":  {
+                                                 "p10":  423.855,
+                                                 "p50":  561.423,
+                                                 "p90":  746.13
+                                             },
+                                  "ranks":  [
+                                                {
+                                                    "rank":  "일반인",
+                                                    "n":  1398
+                                                },
+                                                {
+                                                    "rank":  "삼류",
+                                                    "n":  0
+                                                },
+                                                {
+                                                    "rank":  "이류",
+                                                    "n":  0
+                                                },
+                                                {
+                                                    "rank":  "일류",
+                                                    "n":  0
+                                                },
+                                                {
+                                                    "rank":  "절정",
+                                                    "n":  0
+                                                },
+                                                {
+                                                    "rank":  "초절정",
+                                                    "n":  0
+                                                },
+                                                {
+                                                    "rank":  "화경",
+                                                    "n":  0
+                                                }
+                                            ],
+                                  "leadership":  0,
+                                  "seniorInner":  {
+                                                      "n":  0,
+                                                      "p50":  null,
+                                                      "p90":  null
+                                                  }
+                              },
+                     "family":  {
+                                    "everMarriedPercent":  88.97,
+                                    "survivingSpousePercent":  27.64,
+                                    "childrenP50":  1
+                                },
+                     "transitionsPercent":  0,
+                     "debtAt60Percent":  0,
+                     "eventualLeadership":  0,
+                     "events":  {
+                                    "at60P50":  18,
+                                    "at60P90":  21,
+                                    "p50":  23,
+                                    "p90":  28
+                                },
+                     "minutes":  {
+                                     "activeP50":  13.8,
+                                     "with12secChoicesP50":  18.2,
+                                     "with12secChoicesP90":  22.4
+                                 },
+                     "narrative":  {
+                                       "memoriesP50":  7,
+                                       "closedP50":  6,
+                                       "roots":  {
+                                                     "friend":  1402,
+                                                     "waybill":  708,
+                                                     "oldLetter":  1007,
+                                                     "physician":  601,
+                                                     "chain-village":  102,
+                                                     "craftorder":  205,
+                                                     "sect-warning":  84,
+                                                     "parent":  746,
+                                                     "familydebt":  679,
+                                                     "business":  927,
+                                                     "first-pupil":  917,
+                                                     "masterwork":  685,
+                                                     "herbs":  216,
+                                                     "chain-family":  224,
+                                                     "grainbook":  282,
+                                                     "chain-guest":  256,
+                                                     "guest":  162,
+                                                     "pupil":  203,
+                                                     "trade":  175
+                                                 }
+                                   },
+                     "causes":  {
+                                    "급작스러운 병환":  210,
+                                    "노환":  1422,
+                                    "난세의 사고":  36
+                                }
+                 },
+    "martial":  {
+                    "n":  1668,
+                    "survival60":  83.21,
+                    "deathAge":  {
+                                     "p10":  52,
+                                     "p50":  76,
+                                     "p90":  91
+                                 },
+                    "at60":  {
+                                 "n":  1388,
+                                 "inner":  {
+                                               "p50":  2.505,
+                                               "p90":  3.05,
+                                               "p99":  3.411
+                                           },
+                                 "career":  {
+                                                "p10":  1.11,
+                                                "p50":  5.726,
+                                                "p90":  19.696,
+                                                "over90":  0
+                                            },
+                                 "wealth":  {
+                                                "p10":  274.869,
+                                                "p50":  566.875,
+                                                "p90":  686.439
+                                            },
+                                 "ranks":  [
+                                               {
+                                                   "rank":  "일반인",
+                                                   "n":  0
+                                               },
+                                               {
+                                                   "rank":  "삼류",
+                                                   "n":  10
+                                               },
+                                               {
+                                                   "rank":  "이류",
+                                                   "n":  919
+                                               },
+                                               {
+                                                   "rank":  "일류",
+                                                   "n":  454
+                                               },
+                                               {
+                                                   "rank":  "절정",
+                                                   "n":  5
+                                               },
+                                               {
+                                                   "rank":  "초절정",
+                                                   "n":  0
+                                               },
+                                               {
+                                                   "rank":  "화경",
+                                                   "n":  0
+                                               }
+                                           ],
+                                 "leadership":  0,
+                                 "seniorInner":  {
+                                                     "n":  427,
+                                                     "p50":  2.843,
+                                                     "p90":  3.186
+                                                 }
+                             },
+                    "family":  {
+                                   "everMarriedPercent":  81.53,
+                                   "survivingSpousePercent":  27.94,
+                                   "childrenP50":  1
+                               },
+                    "transitionsPercent":  11.93,
+                    "debtAt60Percent":  4.61,
+                    "eventualLeadership":  331,
+                    "events":  {
+                                   "at60P50":  28,
+                                   "at60P90":  34,
+                                   "p50":  35,
+                                   "p90":  44
+                               },
+                    "minutes":  {
+                                    "activeP50":  13.6,
+                                    "with12secChoicesP50":  20.6,
+                                    "with12secChoicesP90":  25.4
+                                },
+                    "narrative":  {
+                                      "memoriesP50":  10,
+                                      "closedP50":  9,
+                                      "roots":  {
+                                                    "chain-mentor":  935,
+                                                    "pilgrim":  729,
+                                                    "advice":  122,
+                                                    "transmission":  1448,
+                                                    "oldLetter":  691,
+                                                    "mentorloss":  1548,
+                                                    "familydebt":  379,
+                                                    "escort":  651,
+                                                    "bladeoath":  723,
+                                                    "training-advice":  1309,
+                                                    "craftorder":  151,
+                                                    "friend":  952,
+                                                    "sect-warning":  390,
+                                                    "sect-life-shaolin":  147,
+                                                    "parent":  392,
+                                                    "sect-life-wudang":  136,
+                                                    "inkseal":  628,
+                                                    "chain-guest":  206,
+                                                    "guest":  90,
+                                                    "sect-life-heuksa":  150,
+                                                    "sect-life-demon":  131,
+                                                    "sect-life-blood":  167,
+                                                    "leader-dispute":  60,
+                                                    "chain-family":  140,
+                                                    "sect-life-namgung":  138,
+                                                    "herbs":  133,
+                                                    "pupil":  130,
+                                                    "grainbook":  167,
+                                                    "sect-life-gaebang":  152,
+                                                    "waybill":  192,
+                                                    "trade":  120,
+                                                    "chain-village":  59,
+                                                    "sect-life-huashan":  117,
+                                                    "leader-heir":  13,
+                                                    "physician":  7
+                                                }
+                                  },
+                    "causes":  {
+                                   "급작스러운 병환":  212,
+                                   "노환":  1413,
+                                   "난세의 사고":  36,
+                                   "전투 중 입은 치명상":  7
+                               }
+                },
+    "leadership":  {
+                       "n":  1152,
+                       "survival60":  81.6,
+                       "deathAge":  {
+                                        "p10":  54,
+                                        "p50":  75,
+                                        "p90":  92
+                                    },
+                       "at60":  {
+                                    "n":  940,
+                                    "inner":  {
+                                                  "p50":  1.933,
+                                                  "p90":  2.408,
+                                                  "p99":  2.629
+                                              },
+                                    "career":  {
+                                                   "p10":  1.148,
+                                                   "p50":  6.542,
+                                                   "p90":  25.842,
+                                                   "over90":  0
+                                               },
+                                    "wealth":  {
+                                                   "p10":  305.351,
+                                                   "p50":  691.679,
+                                                   "p90":  971.411
+                                               },
+                                    "ranks":  [
+                                                  {
+                                                      "rank":  "일반인",
+                                                      "n":  0
+                                                  },
+                                                  {
+                                                      "rank":  "삼류",
+                                                      "n":  2
+                                                  },
+                                                  {
+                                                      "rank":  "이류",
+                                                      "n":  171
+                                                  },
+                                                  {
+                                                      "rank":  "일류",
+                                                      "n":  616
+                                                  },
+                                                  {
+                                                      "rank":  "절정",
+                                                      "n":  151
+                                                  },
+                                                  {
+                                                      "rank":  "초절정",
+                                                      "n":  0
+                                                  },
+                                                  {
+                                                      "rank":  "화경",
+                                                      "n":  0
+                                                  }
+                                              ],
+                                    "leadership":  33,
+                                    "seniorInner":  {
+                                                        "n":  708,
+                                                        "p50":  2.066,
+                                                        "p90":  2.444
+                                                    }
+                                },
+                       "family":  {
+                                      "everMarriedPercent":  83.42,
+                                      "survivingSpousePercent":  32.12,
+                                      "childrenP50":  1
+                                  },
+                       "transitionsPercent":  15.63,
+                       "debtAt60Percent":  5.32,
+                       "eventualLeadership":  412,
+                       "events":  {
+                                      "at60P50":  29,
+                                      "at60P90":  34,
+                                      "p50":  36,
+                                      "p90":  46
+                                  },
+                       "minutes":  {
+                                       "activeP50":  13.4,
+                                       "with12secChoicesP50":  20.8,
+                                       "with12secChoicesP90":  25.8
+                                   },
+                       "narrative":  {
+                                         "memoriesP50":  10,
+                                         "closedP50":  10,
+                                         "roots":  {
+                                                       "training-advice":  980,
+                                                       "mentorloss":  1085,
+                                                       "inkseal":  349,
+                                                       "friend":  656,
+                                                       "sect-life-namgung":  110,
+                                                       "transmission":  1002,
+                                                       "chain-mentor":  604,
+                                                       "advice":  110,
+                                                       "escort":  472,
+                                                       "sect-life-huashan":  107,
+                                                       "sect-life-shaolin":  84,
+                                                       "trade":  107,
+                                                       "pilgrim":  414,
+                                                       "oldLetter":  518,
+                                                       "sect-warning":  297,
+                                                       "chain-family":  93,
+                                                       "herbs":  100,
+                                                       "grainbook":  111,
+                                                       "parent":  300,
+                                                       "bladeoath":  440,
+                                                       "waybill":  141,
+                                                       "sect-life-gaebang":  120,
+                                                       "sect-life-heuksa":  99,
+                                                       "chain-guest":  165,
+                                                       "guest":  68,
+                                                       "chain-village":  26,
+                                                       "craftorder":  51,
+                                                       "sect-life-blood":  88,
+                                                       "familydebt":  261,
+                                                       "leader-dispute":  80,
+                                                       "pupil":  100,
+                                                       "sect-life-wudang":  91,
+                                                       "leader-heir":  31,
+                                                       "sect-life-demon":  80,
+                                                       "physician":  16
+                                                   }
+                                     },
+                       "causes":  {
+                                      "노환":  958,
+                                      "난세의 사고":  64,
+                                      "급작스러운 병환":  120,
+                                      "전투 중 입은 치명상":  10
+                                  }
+                   },
+    "leadershipExampleKeys":  [
+                                  "farm/장문인",
+                                  "craft/장문인",
+                                  "noble/무림맹주",
+                                  "orphan/사도련주",
+                                  "farm/사도련주",
+                                  "merchant/장문인",
+                                  "martial/장문인",
+                                  "noble/장문인",
+                                  "orphan/천마",
+                                  "farm/천마",
+                                  "craft/천마",
+                                  "merchant/천마",
+                                  "martial/천마",
+                                  "noble/천마",
+                                  "orphan/혈마",
+                                  "farm/혈마",
+                                  "craft/혈마",
+                                  "merchant/혈마",
+                                  "martial/혈마",
+                                  "noble/혈마",
+                                  "orphan/무림맹주",
+                                  "farm/무림맹주",
+                                  "craft/무림맹주",
+                                  "merchant/무림맹주",
+                                  "martial/무림맹주",
+                                  "orphan/방주",
+                                  "farm/방주",
+                                  "craft/방주",
+                                  "merchant/방주",
+                                  "martial/방주",
+                                  "noble/방주",
+                                  "craft/사도련주",
+                                  "orphan/장문인",
+                                  "noble/가주",
+                                  "merchant/사도련주",
+                                  "martial/사도련주",
+                                  "noble/사도련주"
+                              ],
+    "fatigue":  [
+                    {
+                        "action":  "work",
+                        "samples":  120,
+                        "thirdYearQuarterObservations":  480,
+                        "thirdYearMean":  34.582
+                    },
+                    {
+                        "action":  "sword",
+                        "samples":  120,
+                        "thirdYearQuarterObservations":  480,
+                        "thirdYearMean":  36.172
+                    },
+                    {
+                        "action":  "inner",
+                        "samples":  120,
+                        "thirdYearQuarterObservations":  480,
+                        "thirdYearMean":  34.582
+                    }
+                ],
+    "narrativeScenarios":  12,
+    "narrativeLines":  5844,
+    "exactNarrativeDuplicates":  0,
+    "originalV032PoolPreserved":  true,
+    "legacyFixtureCount":  3,
+    "limitations":  [
+                        "Exact prose reuse is measured; semantic variety needs human playtesting.",
+                        "Reading, browsing and planning time is assumed, not measured.",
+                        "NPC AI, organization management and individual martial-art experience remain limited prototype models."
+                    ]
+}

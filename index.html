@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101a19">
+<meta name="description" content="한 사람의 생애가 흐르는, 텍스트 중심 무협 생활 시뮬레이션.">
+<title>무협생활 · 강호에 새기는 나의 이야기</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="game.css"><link rel="stylesheet" href="feedback.css"><link rel="stylesheet" href="life-panels.css"><link rel="stylesheet" href="dev-tools.css"><link rel="stylesheet" href="feedback-v042.css"><script src="story-pool.js" defer></script><script src="birth-model.js" defer></script><script src="faction-life.js" defer></script><script src="engine.js" defer></script><script src="game.js" defer></script><script src="life-panels.js" defer></script><script src="feedback-ui.js" defer></script><script src="dev-tools.js" defer></script>
+</head>
+<body>
+<div class="app">
+<header class="masthead"><a class="brand" href="#chronicle">무협생활<span class="seal">武<br>林</span></a><div class="brand-copy">한 사람의 생애가 흐르는,<br><span>텍스트 중심 무협 생활 시뮬레이션</span></div><p class="motto">“강호는 넓고, 인생은 짧다. 그러나 이야기는 길다.”</p><span class="prototype-mark">PLAYABLE · v0.4.2</span></header>
+<div class="app-layout"><aside class="sidebar"><div class="sidebar-time"><span class="season-symbol">春</span><strong id="sidebarAge">새로운 삶</strong><span id="sidebarYear">대연</span></div><div class="sidebar-presence"><button class="icon-button" id="soundToggle" aria-label="효과음 켜기" title="효과음 켜기"></button></div><nav id="navigation" aria-label="주 메뉴"></nav><div class="sidebar-footer"><span class="sidebar-flower">❋</span><span>한 걸음씩,<br>나의 강호로.</span><button id="quickSave" title="현재 진행 저장" aria-label="현재 진행 저장"></button></div></aside>
+<div class="workspace"><main id="main"></main><footer class="app-footer"><span>無俠生活 <b>·</b> 강호에 새기는 나의 이야기</span><span>한 해 12초 · 무공 없이도 온전한 일생</span></footer></div></div></div>
+<dialog id="modal" class="modal"></dialog><div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>

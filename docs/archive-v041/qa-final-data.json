@@ -1,0 +1,2236 @@
+﻿{
+    "version":  "0.4.1",
+    "passed":  490,
+    "storyPoolSha256":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC",
+    "runtimeHashes":  {
+                          "feedback.css":  "B9C1795393D216FAE88D52E6B81B84BEB1A5C363BDA1AB278D5885A550F93774",
+                          "life-panels.js":  "CB853F3FB9C39E8210EF6C412AEA870CA60D93A40BEC9F0140AD72E6B5094A16",
+                          "feedback-ui.js":  "1EE0EC71C09E9EE2E87AFF5D2A9C6DD06B8F732615E41214EF7E281EC03015A4",
+                          "birth-model.js":  "F47FAEC752E95AAE7AD038A114D692236450D8DEE18C9D0BC9104C3318D3D9DE",
+                          "game.js":  "B68530F4A5BEA9D2D4C99FFC4672E0A4755A2FBFCD3D76AF72BB4ED4CD2F72FE",
+                          "engine.js":  "48022261A03801DE417E7397A0D66E57C1703C8EF3DA4439EDEF724B2A720DA4",
+                          "dev-tools.js":  "62AF12A9E4479DA3A80D32467E35254475E4C8FC97DCE11EAD659FB650B334A5",
+                          "life-panels.css":  "C28F501797D64C8B4FEFA67581176E99B562C0BDEA3B47F9B8B0328CD3380A1E",
+                          "story-pool.js":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC",
+                          "game.css":  "B8384F096604EB75227FC6E5ACFF44312ED2F941CFCBBEB381F5DEA36621E00C",
+                          "styles.css":  "F5F05A4229984D4CD68CFDAAA8CD259AD07F84702BDF70C5F0016B51122795E9",
+                          "index.html":  "006BB2B327907AF98D27F7051086A7953CCA77B07433D6BB92CBE931355A573E",
+                          "dev-tools.css":  "3F622A783B22E7B99F6AE60EFE87BEC2C1D6FBC3C2F8C061058A190CCAE24EBD"
+                      },
+    "engineSha256":  "48022261A03801DE417E7397A0D66E57C1703C8EF3DA4439EDEF724B2A720DA4",
+    "tests":  [
+                  {
+                      "name":  "All event IDs are unique",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "At least 60 original playable event definitions",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Eight years automatic; no forced martial training",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Birth changes across seeds",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Only given name entered; lineage independent of sect",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Completed quarters retain history and accept next-year edits",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Exactly four major actions per year",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Important event blocks clock and NPCs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Event commits exactly once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Queued events preserve mandatory choices",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Separate sect collapses do not suppress each other",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Save at pending event reproduces outcome",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Malformed imports are rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Non-numeric imported preference fields rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Missing or invalid NPC rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Non-numeric imported log timestamps rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Invalid queued event rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Future timestamp mismatch rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Six civilian careers with separate retained experience",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "External disciple never inherits surname or family rights",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "All sects accept all origins with nonzero chance",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Ordinary nonmartial life remains nonmartial",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Injury replaces dangerous training with rest",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Combat alternatives available without martial skill",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Manual discovery does not auto-learn inner power",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Manual requires deciphering and choice to adapt",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Method transition has explicit compatible and opposing costs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Marriage requires partner adult and consent",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Organization and personal funds remain distinct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Family leadership excludes unrelated external disciple",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Orphan can qualify for demon/blood leadership",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Leaving preserves learned skills and method",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "NPC age increases one year per year",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Two intraquarter stories occur once and survive save/resume",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Every completed quarter includes at least two personal footprints",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Future plan activates at next year without retroactive action rewards",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Parents begin married and show widowhood when their spouse dies",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Marriage and child opportunities decline with age",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Korean particles match final consonants",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Huashan transmission grants its named sword art",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Private sect arts cannot establish an independent lineage",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Dojo requires permission for its selected private teaching source",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Independent high-level art and supporters can found a sect",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Rumor investigation triggers a location-dependent follow-up",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Combat is a separate paused choice with five stances",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Sparring has no lethal outcomes across one hundred seeds",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Normal combat uses recoverable reserve rather than accumulated inner power",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Knowledge changes how much opponent information is known",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Old v0.3.0 saves migrate without losing names, resources or choices",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Three years of uninterrupted work or training accumulate fatigue in the target range",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Rest actually relieves accumulated fatigue and retains earned experience",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Social action changes one chosen person rather than everyone",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Remote correspondence builds less affinity than a local visit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Civilian NPC skill never auto-promotes into martial instructor",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Guest chain remembers its actual actor and resolves after their death without resurrection",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "All four story chains retain an actor and root choice through a save",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Unknown follow-up actor and missing causal memory are rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Prior generic fight history cannot invent an unrelated enemy",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "The first rumor remains selectable after newer rumors arrive",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Eight rumor families and five distinct closed trails can all be resolved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Expired rumor gives a late outcome instead of its former reward",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "An investigated rumor cannot grant the reward again",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Regional harvest has different effects on farmer and merchant income",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Sect crisis provides warning before collapse and never erases lineage",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Each existing sect has its own playable everyday responsibility",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Named art effects are bounded and never stack into guaranteed victory",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Admission replaces future applications and presents confirm/edit choices",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Civilian transmission does not teach martial arts to its pupil",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Retired requests can be delegated or refused without a forced return",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Biography preserves a former office and dead spouse independently of current state",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Version 0.3.1 migration preserves facts without inventing causal memories",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Declining transmission leaves a later retry and mentor styles test different preparation",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Eight navigation modes",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Live narrative and four status meters",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Toolbar and redundant sidebar location removed; sound remains",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Quarter and birthday updates retain hero and main DOM nodes",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Story navigation buttons preserve the live screen wrapper",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Play/pause keeps control and focus",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Four seasonal cards",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Preset and sound clicks retain the current plan screen",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Entry presets configure admission and disable after affiliation",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Plan edit and modal",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Nine geographically separated locations",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Travel is scheduled, not instant",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Event displays only a real pending choice",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Event duplicate DOM click cannot grant reward twice",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Combat UI exposes five decisions and keeps the pause until acknowledgement",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Generated relations render",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Basic detail translates clan and omits radar",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Ability tab alone displays current radar values",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Complete logs retained",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Six speed settings",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Current save validates",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Relationship event uses finite numeric amounts",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "High speed stops exactly at an event boundary",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "New-life form accepts only a given name",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "One hundred seeded save/resume histories match",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Previous life can be reopened without losing current life",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Speed does not alter logical simulation result",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 0: accepted without losing personal facts or logs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 0: prose memory and in-flight threads are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 0: partial quarter and pending choice or combat are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 0: new memories do not invent a past actor",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 1: accepted without losing personal facts or logs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 1: prose memory and in-flight threads are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 1: partial quarter and pending choice or combat are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 1: new memories do not invent a past actor",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 2: accepted without losing personal facts or logs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 2: prose memory and in-flight threads are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 2: partial quarter and pending choice or combat are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 2: new memories do not invent a past actor",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 waiting chapter resumes once after migration",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-016 actual noble clan displays 남궁세가 instead of its internal ID",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-017 character intro and contextual panel have equal width",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-017 mind method is merged into martial learning navigation",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 기본 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 능력 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 무공 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 생업 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 상태 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 업적 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 용어 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Glossary lookup scrolls inside detail without leaving the screen",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-017 clicking a learned art opens its utility, limits and growth explanation",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Career detail selection explains its story without silently changing career",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Status uses RPG numeric rows",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-020 all active rumors remain visible rather than only the newest two",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-020 looking at a rumor asks about travel and states its price",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-020 confirmed trip reserves travel then investigation and keeps other rumors",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-023 a four-way chain displays its actor and known costs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-021 death first presents name, cause and life narrative above the ending",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-021 closing farewell reveals the complete biography and restores controls",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "All sixteen v0.3.2 chapter definitions remain available",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "An anonymous courier becomes a courier NPC, not a randomly relabelled parent",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Missing investigation target becomes an ordinary journey",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "A wrong-place clue warns and pauses rather than silently repeating forever",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "A v0.3.2 chapter binds its actor through a delayed saved return",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "A deceased chapter actor is remembered without offering a new meeting",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Direct Namgung bloodline is never labelled an external surname disciple",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Twelve representative lives retain valid saves and civilian independence",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Twelve representative lives contain no malformed prose",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Exact prose reuse remains absent in the twelve reference lives",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 settings toggle enters paused independent session",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 autosave and explicit save do not write original slot",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 reset button cannot archive test state in normal slot",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 restoring original recovers exact state",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 force API disabled in normal mode",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 close and badge reopen preserve test state",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 snapshot UI restores state without touching normal save",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 UI search and force event retain selected actor and location",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 UI ability editor changes real XP",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 actual v0.4.0 v040-quarter preserves save facts and resumes once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 actual v0.4.0 v040-event preserves save facts and resumes once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 actual v0.4.0 v040-combat preserves save facts and resumes once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 actual v0.4.0 v040-chain preserves save facts and resumes once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 catalog includes every production event and choice count",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 normal event eligibility preserves conditions and cooldown",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 scheduled test queue survives snapshot restore",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 forced marriage still rejects underage player",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 malformed new family graph rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 raw XP and displayed skill remain consistent",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 stat range clamps and undo restores previous value",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 unknown stat path cannot mutate state",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 fixed birth seed reproduces complete state",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 household orphan produces valid independent civilian birth",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 household farm produces valid independent civilian birth",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 household craft produces valid independent civilian birth",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 household merchant produces valid independent civilian birth",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 household martial produces valid independent civilian birth",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 household clan produces valid independent civilian birth",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 household fallen produces valid independent civilian birth",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan namgung main direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan namgung main collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan namgung branch direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan namgung branch collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan tang main direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan tang main collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan tang branch direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan tang branch collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan paeng main direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan paeng main collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan paeng branch direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan paeng branch collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan zhuge main direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan zhuge main collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan zhuge branch direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan zhuge branch collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan murong main direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan murong main collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan murong branch direct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 clan murong branch collateral",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 legacy noble remains Namgung direct on migration",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 actual time advances age tick NPCs and four quarters",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 all eight sects force join without surname or clan changes",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 random mentor is living same-sect teaching NPC",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 dead mentor cannot be selected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 multiple rumor kinds remain simultaneously traceable",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 rumor normal uses engine event result once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 rumor success uses engine event result once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 rumor failure uses engine event result once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 rumor false uses engine event result once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 rumor departed uses engine event result once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 rumor expired uses engine event result once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 rumor taken uses engine event result once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat duel allout actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat duel forceful actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat duel normal actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat duel restrained actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat duel flee actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat lethal allout actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat lethal forceful actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat lethal normal actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat lethal restrained actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat lethal flee actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat hostile allout actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat hostile forceful actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat hostile normal actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat hostile restrained actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 combat hostile flee actual UI and commit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event school choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event school choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event help choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event help choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event talent choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event talent choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event talent choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event harvest choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event harvest choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event craftorder choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event craftorder choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event trade choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event trade choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event herbs choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event herbs choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event pupil choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event pupil choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event guest choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event guest choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event errand choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event errand choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event advice choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event advice choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event charity choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event charity choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event dispute choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event dispute choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event friend choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event friend choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event parent choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event parent choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event spouse choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event spouse choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event childpath choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event childpath choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event illness choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event illness choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event tax choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event tax choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event flood choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event flood choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bandit choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bandit choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bandit choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event duel choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event duel choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event revenge choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event revenge choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event expel choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event expel choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bloodorder choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bloodorder choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event demontrial choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event demontrial choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event elderrequest choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event elderrequest choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sapahelp choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sapahelp choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event retire choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event retire choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event lastlesson choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event lastlesson choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event festival choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event festival choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event masterwork choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event masterwork choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event escort choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event escort choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event mentorloss choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event mentorloss choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event ruin choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event ruin choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event manual choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event manual choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event adapt choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event adapt choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event promotion choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event promotion choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event transmission choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event transmission choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event breakthrough choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event breakthrough choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event marriage choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event marriage choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event child choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event child choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event succession choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event succession choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event alliance choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event alliance choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event business choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event business choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event businesscrisis choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event businesscrisis choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event creation choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event creation choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-namgung choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-namgung choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-huashan choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-huashan choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-shaolin choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-shaolin choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-wudang choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-wudang choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-gaebang choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-gaebang choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-heuksa choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-heuksa choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-demon choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-demon choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-blood choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event join-blood choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event methodoffer choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event methodoffer choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event departure choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event departure choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event meeting choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event meeting choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event separation choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event separation choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-farmer choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-farmer choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-artisan choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-artisan choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-merchant choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-merchant choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-doctor choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-doctor choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-teacher choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-teacher choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-innkeeper choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event career-innkeeper choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-manual choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-manual choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-healer choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-healer choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-master choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-master choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event teachingPermit choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event teachingPermit choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event openDojo choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event openDojo choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event foundSect choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event foundSect choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event entry-plan choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event entry-plan choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-guest choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-guest choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-guest choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-guest choice 3 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-guest-return choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-guest-return choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-village choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-village choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-village choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-village choice 3 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-village-return choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-village-return choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-mentor choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-mentor choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-mentor choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-mentor-return choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-mentor-return choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-family choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-family choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-family choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-family choice 3 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-family-return choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event chain-family-return choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-warning choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-warning choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-warning choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event training-advice choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event training-advice choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event training-advice choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event first-pupil choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event first-pupil choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event first-pupil choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event retired-letter choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event retired-letter choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event retired-letter choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event leader-dispute choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event leader-dispute choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event leader-dispute choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event leader-heir choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event leader-heir choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event leader-heir choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-namgung choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-namgung choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-namgung choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-huashan choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-huashan choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-huashan choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-shaolin choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-shaolin choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-shaolin choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-wudang choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-wudang choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-wudang choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-gaebang choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-gaebang choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-gaebang choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-heuksa choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-heuksa choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-heuksa choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-demon choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-demon choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-demon choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-blood choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-blood choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event sect-life-blood choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-trade choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-trade choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-trade choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-relief choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-relief choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-relief choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-missing choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-missing choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-missing choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-dispute choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-dispute choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-dispute choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-apprentice choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-apprentice choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-apprentice choice 2 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-taken choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-taken choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-notfound choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-notfound choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-false choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-false choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-departed choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-departed choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-late choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event rumor-end-late choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event inkseal choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event inkseal choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event inkreturn choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event inkreturn choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event waybill choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event waybill choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event wayreturn choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event wayreturn choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event grainbook choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event grainbook choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event grainreturn choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event grainreturn choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bladeoath choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bladeoath choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bladereturn choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event bladereturn choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event familydebt choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event familydebt choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event debtreturn choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event debtreturn choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event physician choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event physician choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event physicianreturn choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event physicianreturn choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event oldLetter choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event oldLetter choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event letterreturn choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event letterreturn choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event pilgrim choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event pilgrim choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event pilgrimreturn choice 0 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 event pilgrimreturn choice 1 load resolve once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 natural birth compatibility distribution has all six origins",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 scheduled event remains isolated and triggers at real quarter",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "v041 career work records retain actor choice and save data",
+                      "pass":  true
+                  }
+              ],
+    "layouts":  [
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "chronicle"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "plan"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "map"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "event"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "people"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "history"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "settings"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "chronicle"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "plan"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "map"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "event"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "people"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "history"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "settings"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-기본"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-능력"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-무공"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-생업"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-상태"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-업적"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-용어"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-기본"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-능력"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-무공"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-생업"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-상태"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-업적"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-용어"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "multiple-rumors"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "multiple-rumors"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "combat"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "combat"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "developer-사건"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "developer-전투"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "developer-수치"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "developer-소문"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "developer-문파·NPC"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "developer-출생"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "developer-세계·저장"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "developer-로그·큐"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "developer-사건"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "developer-전투"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "developer-수치"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "developer-소문"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "developer-문파·NPC"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "developer-출생"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "developer-세계·저장"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "developer-로그·큐"
+                    }
+                ],
+    "failed":  0
+}

@@ -1,0 +1,24 @@
+.detail-buttons,.people-paper,.person-detail,.detail-navigation,.character-body,.context-glossary{scrollbar-color:#a4926e transparent;scrollbar-width:thin}
+.detail-buttons::-webkit-scrollbar,.people-paper::-webkit-scrollbar,.character-body::-webkit-scrollbar,.person-detail::-webkit-scrollbar{width:7px;height:7px}
+.detail-buttons::-webkit-scrollbar-thumb,.people-paper::-webkit-scrollbar-thumb,.character-body::-webkit-scrollbar-thumb,.person-detail::-webkit-scrollbar-thumb{background:#a4926e;border-radius:8px}
+.map-pin,.map-pin.selected{padding:5px 10px;transform:translate(-50%,-50%);transition:background .15s,color .15s,border-color .15s}
+.map-pin:before,.map-pin.selected:before{content:'';position:absolute;left:calc(50% - 5.5px);top:-15px;width:7px;height:7px;border:2px solid #f8dfab;background:#344d5b;border-radius:50%;box-shadow:0 0 0 3px #344d5b88}
+.map-canvas{height:610px;min-height:0;align-self:start}.map-pin:hover,.map-pin:active{transform:translate(-50%,-50%)}
+body:has(.map-layout){overflow-anchor:none}.map-layout{align-items:start}
+.birth-stage .masthead,.birth-stage .sidebar,.birth-stage .app-footer{display:none}
+.birth-stage .app-layout{display:block;min-height:100dvh}
+.birth-stage #main{padding:0;min-height:100dvh}
+.birth-stage .birth-screen{min-height:100dvh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:40px 24px;text-align:center}
+.birth-prologue{position:fixed;inset:0;z-index:990;background:#0c1713;color:#e9dfc5;overflow:auto;display:grid;place-items:center;padding:36px 24px}
+.birth-prologue>div{max-width:680px;text-align:center}
+.birth-prologue h1{font:normal 40px var(--serif);letter-spacing:.2em}
+.birth-lines{display:grid;align-items:center;min-height:220px}.birth-lines p{grid-area:1/1;pointer-events:none}
+.birth-prologue p{font:16px/2 var(--serif);margin:26px 0;animation:birth-line 5s both;animation-delay:calc(var(--line)*4.5s)}
+.birth-prologue .button{margin-top:20px}
+.war-status{margin-top:18px;padding:18px 22px;border:1px solid #a2956655;line-height:1.9}
+.war-status h2{font:700 17px var(--serif)}
+.wound-record{padding:10px 0;border-bottom:1px solid #a2956655}
+@keyframes birth-line{0%{opacity:0;transform:translateY(-14px)}20%,75%{opacity:1;transform:none}100%{opacity:0;transform:translateY(14px)}}
+@media(max-width:600px){.map-pin,.map-pin.selected{font-size:11px;padding:5px 8px}.birth-prologue p{font-size:13px}.birth-stage .birth-screen h1{font-size:28px}}
+@media(max-width:1000px){.map-canvas{height:500px}}@media(max-width:600px){.map-canvas{height:440px}}
+@media(prefers-reduced-motion:reduce){.birth-prologue p{animation:none}.birth-lines{display:block}}

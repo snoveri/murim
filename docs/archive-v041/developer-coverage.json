@@ -1,0 +1,2156 @@
+﻿{
+    "events":  [
+                   {
+                       "id":  "school",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "school",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "help",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "help",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "talent",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "talent",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "talent",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "harvest",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "harvest",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "craftorder",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "craftorder",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "trade",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "trade",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "herbs",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "herbs",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "pupil",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "pupil",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "guest",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "guest",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "errand",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "errand",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "advice",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "advice",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "charity",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "charity",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "dispute",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "dispute",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "friend",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "friend",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "parent",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "parent",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "spouse",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "spouse",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "childpath",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "childpath",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "illness",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "illness",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "tax",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "tax",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "flood",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "flood",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bandit",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bandit",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bandit",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "duel",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "duel",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "revenge",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "revenge",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "expel",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "expel",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bloodorder",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bloodorder",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "demontrial",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "demontrial",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "elderrequest",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "elderrequest",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sapahelp",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sapahelp",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "retire",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "retire",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "lastlesson",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "lastlesson",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "festival",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "festival",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "masterwork",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "masterwork",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "escort",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "escort",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "mentorloss",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "mentorloss",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "ruin",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "ruin",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "manual",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "manual",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "adapt",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "adapt",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "promotion",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "promotion",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "transmission",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "transmission",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "breakthrough",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "breakthrough",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "marriage",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "marriage",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "child",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "child",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "succession",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "succession",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "alliance",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "alliance",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "business",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "business",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "businesscrisis",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "businesscrisis",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "creation",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "creation",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-namgung",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-namgung",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-huashan",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-huashan",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-shaolin",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-shaolin",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-wudang",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-wudang",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-gaebang",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-gaebang",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-heuksa",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-heuksa",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-demon",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-demon",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-blood",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "join-blood",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "methodoffer",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "methodoffer",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "departure",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "departure",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "meeting",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "meeting",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "separation",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "separation",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-farmer",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-farmer",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-artisan",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-artisan",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-merchant",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-merchant",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-doctor",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-doctor",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-teacher",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-teacher",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-innkeeper",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "career-innkeeper",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-manual",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-manual",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-healer",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-healer",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-master",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-master",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "teachingPermit",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "teachingPermit",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "openDojo",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "openDojo",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "foundSect",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "foundSect",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "entry-plan",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "entry-plan",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-guest",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-guest",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-guest",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-guest",
+                       "choice":  3,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-guest-return",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-guest-return",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-village",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-village",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-village",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-village",
+                       "choice":  3,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-village-return",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-village-return",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-mentor",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-mentor",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-mentor",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-mentor-return",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-mentor-return",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-family",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-family",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-family",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-family",
+                       "choice":  3,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-family-return",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "chain-family-return",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-warning",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-warning",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-warning",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "training-advice",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "training-advice",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "training-advice",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "first-pupil",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "first-pupil",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "first-pupil",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "retired-letter",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "retired-letter",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "retired-letter",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "leader-dispute",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "leader-dispute",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "leader-dispute",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "leader-heir",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "leader-heir",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "leader-heir",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-namgung",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-namgung",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-namgung",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-huashan",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-huashan",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-huashan",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-shaolin",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-shaolin",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-shaolin",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-wudang",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-wudang",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-wudang",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-gaebang",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-gaebang",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-gaebang",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-heuksa",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-heuksa",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-heuksa",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-demon",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-demon",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-demon",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-blood",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-blood",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "sect-life-blood",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-trade",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-trade",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-trade",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-relief",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-relief",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-relief",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-missing",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-missing",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-missing",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-dispute",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-dispute",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-dispute",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-apprentice",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-apprentice",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-apprentice",
+                       "choice":  2,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-taken",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-taken",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-notfound",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-notfound",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-false",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-false",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-departed",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-departed",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-late",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "rumor-end-late",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "inkseal",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "inkseal",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "inkreturn",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "inkreturn",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "waybill",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "waybill",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "wayreturn",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "wayreturn",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "grainbook",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "grainbook",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "grainreturn",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "grainreturn",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bladeoath",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bladeoath",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bladereturn",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "bladereturn",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "familydebt",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "familydebt",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "debtreturn",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "debtreturn",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "physician",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "physician",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "physicianreturn",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "physicianreturn",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "oldLetter",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "oldLetter",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "letterreturn",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "letterreturn",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "pilgrim",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "pilgrim",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "pilgrimreturn",
+                       "choice":  0,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   },
+                   {
+                       "id":  "pilgrimreturn",
+                       "choice":  1,
+                       "status":  "통과",
+                       "valid":  true,
+                       "same":  true,
+                       "noRepeat":  true
+                   }
+               ],
+    "birthStats":  {
+                       "merchant":  1008,
+                       "martial":  721,
+                       "orphan":  1099,
+                       "farm":  1627,
+                       "craft":  1063,
+                       "noble":  482
+                   }
+}

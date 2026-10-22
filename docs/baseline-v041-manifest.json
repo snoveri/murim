@@ -1,0 +1,66 @@
+﻿[
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\app.js",
+        "Hash":  "64BD79BF9B1545EC738D39DEBA76497971BC0DDE6D51B235E86C2D036F0F2F8A"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\birth-model.js",
+        "Hash":  "F47FAEC752E95AAE7AD038A114D692236450D8DEE18C9D0BC9104C3318D3D9DE"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\dev-tools.css",
+        "Hash":  "3F622A783B22E7B99F6AE60EFE87BEC2C1D6FBC3C2F8C061058A190CCAE24EBD"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\dev-tools.js",
+        "Hash":  "62AF12A9E4479DA3A80D32467E35254475E4C8FC97DCE11EAD659FB650B334A5"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\engine.js",
+        "Hash":  "48022261A03801DE417E7397A0D66E57C1703C8EF3DA4439EDEF724B2A720DA4"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\feedback-ui.js",
+        "Hash":  "1EE0EC71C09E9EE2E87AFF5D2A9C6DD06B8F732615E41214EF7E281EC03015A4"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\feedback.css",
+        "Hash":  "B9C1795393D216FAE88D52E6B81B84BEB1A5C363BDA1AB278D5885A550F93774"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\game.css",
+        "Hash":  "B8384F096604EB75227FC6E5ACFF44312ED2F941CFCBBEB381F5DEA36621E00C"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\game.js",
+        "Hash":  "B68530F4A5BEA9D2D4C99FFC4672E0A4755A2FBFCD3D76AF72BB4ED4CD2F72FE"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\index.html",
+        "Hash":  "006BB2B327907AF98D27F7051086A7953CCA77B07433D6BB92CBE931355A573E"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\index.original.html",
+        "Hash":  "FB175176C2DDF9B2D5FE6B47E295AA39C794A2FFE82D23E8157FBB9682EC7E95"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\life-panels.css",
+        "Hash":  "C28F501797D64C8B4FEFA67581176E99B562C0BDEA3B47F9B8B0328CD3380A1E"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\life-panels.js",
+        "Hash":  "CB853F3FB9C39E8210EF6C412AEA870CA60D93A40BEC9F0140AD72E6B5094A16"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\README.md",
+        "Hash":  "D501BF13DB561922ED262D85537170DE74DE3CD3B47E0BFDFAF54F9316901A02"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\story-pool.js",
+        "Hash":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC"
+    },
+    {
+        "Path":  "C:\\Users\\d6930\\Downloads\\%EB%AC%B4%ED%98%91%EC%83%9D%ED%99%9C_UI_v2_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85\\murim_prototype\\.qa\\baseline-v041\\styles.css",
+        "Hash":  "F5F05A4229984D4CD68CFDAAA8CD259AD07F84702BDF70C5F0016B51122795E9"
+    }
+]

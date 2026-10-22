@@ -1,0 +1,749 @@
+﻿{
+    "engineSha256":  "7EC199C6C8167A52E83232352BE49A4E0658C8E126EC3111FC853E2C96EE12DC",
+    "version":  "0.4.0",
+    "passed":  142,
+    "failed":  0,
+    "layouts":  [
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "chronicle"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "plan"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "map"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "event"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "people"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "history"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "settings"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "chronicle"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "plan"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "map"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "event"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "people"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "history"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "settings"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-기본"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-능력"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-무공"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-생업"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-상태"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-업적"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "character-용어"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-기본"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-능력"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-무공"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-생업"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-상태"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-업적"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "character-용어"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "multiple-rumors"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "multiple-rumors"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  1366,
+                        "screen":  "combat"
+                    },
+                    {
+                        "overflow":  false,
+                        "width":  390,
+                        "screen":  "combat"
+                    }
+                ],
+    "tests":  [
+                  {
+                      "name":  "All event IDs are unique",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "At least 60 original playable event definitions",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Eight years automatic; no forced martial training",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Birth changes across seeds",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Only given name entered; lineage independent of sect",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Completed quarters retain history and accept next-year edits",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Exactly four major actions per year",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Important event blocks clock and NPCs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Event commits exactly once",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Queued events preserve mandatory choices",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Separate sect collapses do not suppress each other",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Save at pending event reproduces outcome",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Malformed imports are rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Non-numeric imported preference fields rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Missing or invalid NPC rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Non-numeric imported log timestamps rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Invalid queued event rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Future timestamp mismatch rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Six civilian careers with separate retained experience",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "External disciple never inherits surname or family rights",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "All sects accept all origins with nonzero chance",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Ordinary nonmartial life remains nonmartial",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Injury replaces dangerous training with rest",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Combat alternatives available without martial skill",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Manual discovery does not auto-learn inner power",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Manual requires deciphering and choice to adapt",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Method transition has explicit compatible and opposing costs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Marriage requires partner adult and consent",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Organization and personal funds remain distinct",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Family leadership excludes unrelated external disciple",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Orphan can qualify for demon/blood leadership",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Leaving preserves learned skills and method",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "NPC age increases one year per year",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Two intraquarter stories occur once and survive save/resume",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Every completed quarter includes at least two personal footprints",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Future plan activates at next year without retroactive action rewards",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Parents begin married and show widowhood when their spouse dies",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Marriage and child opportunities decline with age",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Korean particles match final consonants",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Huashan transmission grants its named sword art",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Private sect arts cannot establish an independent lineage",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Dojo requires permission for its selected private teaching source",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Independent high-level art and supporters can found a sect",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Rumor investigation triggers a location-dependent follow-up",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Combat is a separate paused choice with five stances",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Sparring has no lethal outcomes across one hundred seeds",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Normal combat uses recoverable reserve rather than accumulated inner power",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Knowledge changes how much opponent information is known",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Old v0.3.0 saves migrate without losing names, resources or choices",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Three years of uninterrupted work or training accumulate fatigue in the target range",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Rest actually relieves accumulated fatigue and retains earned experience",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Social action changes one chosen person rather than everyone",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Remote correspondence builds less affinity than a local visit",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Civilian NPC skill never auto-promotes into martial instructor",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Guest chain remembers its actual actor and resolves after their death without resurrection",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "All four story chains retain an actor and root choice through a save",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Unknown follow-up actor and missing causal memory are rejected",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Prior generic fight history cannot invent an unrelated enemy",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "The first rumor remains selectable after newer rumors arrive",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Eight rumor families and five distinct closed trails can all be resolved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Expired rumor gives a late outcome instead of its former reward",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "An investigated rumor cannot grant the reward again",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Regional harvest has different effects on farmer and merchant income",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Sect crisis provides warning before collapse and never erases lineage",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Each existing sect has its own playable everyday responsibility",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Named art effects are bounded and never stack into guaranteed victory",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Admission replaces future applications and presents confirm/edit choices",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Civilian transmission does not teach martial arts to its pupil",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Retired requests can be delegated or refused without a forced return",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Biography preserves a former office and dead spouse independently of current state",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Version 0.3.1 migration preserves facts without inventing causal memories",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Declining transmission leaves a later retry and mentor styles test different preparation",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Eight navigation modes",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Live narrative and four status meters",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Toolbar and redundant sidebar location removed; sound remains",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Quarter and birthday updates retain hero and main DOM nodes",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Story navigation buttons preserve the live screen wrapper",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Play/pause keeps control and focus",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Four seasonal cards",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Preset and sound clicks retain the current plan screen",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Entry presets configure admission and disable after affiliation",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Plan edit and modal",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Nine geographically separated locations",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Travel is scheduled, not instant",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Event displays only a real pending choice",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Event duplicate DOM click cannot grant reward twice",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Combat UI exposes five decisions and keeps the pause until acknowledgement",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Generated relations render",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Basic detail translates clan and omits radar",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Ability tab alone displays current radar values",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Complete logs retained",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Six speed settings",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Current save validates",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Relationship event uses finite numeric amounts",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "High speed stops exactly at an event boundary",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "New-life form accepts only a given name",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "One hundred seeded save/resume histories match",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Previous life can be reopened without losing current life",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Speed does not alter logical simulation result",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 0: accepted without losing personal facts or logs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 0: prose memory and in-flight threads are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 0: partial quarter and pending choice or combat are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 0: new memories do not invent a past actor",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 1: accepted without losing personal facts or logs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 1: prose memory and in-flight threads are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 1: partial quarter and pending choice or combat are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 1: new memories do not invent a past actor",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 2: accepted without losing personal facts or logs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 2: prose memory and in-flight threads are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 2: partial quarter and pending choice or combat are preserved",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 fixture 2: new memories do not invent a past actor",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Actual v0.3.2 waiting chapter resumes once after migration",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-016 actual noble clan displays 남궁세가 instead of its internal ID",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-017 character intro and contextual panel have equal width",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-017 mind method is merged into martial learning navigation",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 기본 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 능력 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 무공 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 생업 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 상태 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 업적 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Detail 용어 has radar only when appropriate",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Glossary lookup scrolls inside detail without leaving the screen",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-017 clicking a learned art opens its utility, limits and growth explanation",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Career detail selection explains its story without silently changing career",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Status uses RPG numeric rows",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-020 all active rumors remain visible rather than only the newest two",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-020 looking at a rumor asks about travel and states its price",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-020 confirmed trip reserves travel then investigation and keeps other rumors",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-023 a four-way chain displays its actor and known costs",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-021 death first presents name, cause and life narrative above the ending",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "V-021 closing farewell reveals the complete biography and restores controls",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "All sixteen v0.3.2 chapter definitions remain available",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "An anonymous courier becomes a courier NPC, not a randomly relabelled parent",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Missing investigation target becomes an ordinary journey",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "A wrong-place clue warns and pauses rather than silently repeating forever",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "A v0.3.2 chapter binds its actor through a delayed saved return",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "A deceased chapter actor is remembered without offering a new meeting",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Direct Namgung bloodline is never labelled an external surname disciple",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Twelve representative lives retain valid saves and civilian independence",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Twelve representative lives contain no malformed prose",
+                      "pass":  true
+                  },
+                  {
+                      "name":  "Exact prose reuse remains absent in the twelve reference lives",
+                      "pass":  true
+                  }
+              ],
+    "storyPoolSha256":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC"
+}

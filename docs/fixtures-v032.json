@@ -1,0 +1,1322 @@
+﻿[
+    {
+        "version":  "0.3.2",
+        "seed":  "v032-fixture",
+        "rngVersion":  1,
+        "tick":  32,
+        "age":  8,
+        "q":  0,
+        "p":  0,
+        "speed":  1,
+        "playing":  false,
+        "alive":  true,
+        "started":  true,
+        "givenName":  "소연",
+        "surname":  "조",
+        "birthYear":  112,
+        "location":  "화산",
+        "originId":  "farm",
+        "lineage":  "민간",
+        "clanId":  null,
+        "birthParentIds":  [
+                               "father",
+                               "mother"
+                           ],
+        "guardianId":  "mother",
+        "mentorId":  null,
+        "sectId":  null,
+        "discipleStatus":  "없음",
+        "officeId":  null,
+        "transmission":  false,
+        "successorFlag":  false,
+        "career":  "farmer",
+        "careerXP":  {
+
+                     },
+        "inner":  0,
+        "swordXP":  0,
+        "operationXP":  0,
+        "methodXP":  0,
+        "knowledgeXP":  70,
+        "rank":  0,
+        "merit":  0,
+        "support":  0,
+        "trust":  25,
+        "method":  {
+                       "id":  "basic",
+                       "name":  "기초 토납법",
+                       "principle":  "중정",
+                       "quality":  1
+                   },
+        "health":  97,
+        "injury":  0,
+        "fatigue":  0,
+        "happiness":  63,
+        "money":  9,
+        "debt":  0,
+        "reputation":  3,
+        "ethics":  0,
+        "plan":  [
+                     "work",
+                     "social",
+                     "work",
+                     "rest"
+                 ],
+        "targetSect":  "gaebang",
+        "travelTarget":  null,
+        "repeatYears":  0,
+        "goal":  "none",
+        "goalStart":  8,
+        "spouseId":  null,
+        "childIds":  [
+
+                     ],
+        "npcs":  [
+                     {
+                         "id":  "father",
+                         "name":  "조정호",
+                         "age":  36,
+                         "birthYear":  84,
+                         "role":  "부친",
+                         "affinity":  45,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "수련",
+                         "skill":  10,
+                         "married":  true,
+                         "office":  "없음",
+                         "portrait":  0,
+                         "spouseId":  "mother"
+                     },
+                     {
+                         "id":  "mother",
+                         "name":  "윤소정",
+                         "age":  33,
+                         "birthYear":  87,
+                         "role":  "모친",
+                         "affinity":  45,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "수련",
+                         "skill":  10,
+                         "married":  true,
+                         "office":  "없음",
+                         "portrait":  0,
+                         "spouseId":  "father"
+                     },
+                     {
+                         "id":  "peer-0",
+                         "name":  "임청",
+                         "age":  9,
+                         "birthYear":  111,
+                         "role":  "지인",
+                         "affinity":  47,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "수련",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  2
+                     },
+                     {
+                         "id":  "peer-1",
+                         "name":  "유연",
+                         "age":  10,
+                         "birthYear":  110,
+                         "role":  "지인",
+                         "affinity":  49,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "유람",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  3
+                     },
+                     {
+                         "id":  "peer-2",
+                         "name":  "유운",
+                         "age":  11,
+                         "birthYear":  109,
+                         "role":  "지인",
+                         "affinity":  47,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  0
+                     },
+                     {
+                         "id":  "peer-3",
+                         "name":  "당운",
+                         "age":  12,
+                         "birthYear":  108,
+                         "role":  "지인",
+                         "affinity":  46,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  1
+                     },
+                     {
+                         "id":  "peer-4",
+                         "name":  "한명",
+                         "age":  27,
+                         "birthYear":  93,
+                         "role":  "지인",
+                         "affinity":  57,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "유람",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  2
+                     },
+                     {
+                         "id":  "peer-5",
+                         "name":  "유운연",
+                         "age":  28,
+                         "birthYear":  92,
+                         "role":  "지인",
+                         "affinity":  64,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  3
+                     },
+                     {
+                         "id":  "peer-6",
+                         "name":  "송청",
+                         "age":  29,
+                         "birthYear":  91,
+                         "role":  "지인",
+                         "affinity":  68,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  0
+                     },
+                     {
+                         "id":  "peer-7",
+                         "name":  "당우",
+                         "age":  30,
+                         "birthYear":  90,
+                         "role":  "지인",
+                         "affinity":  57,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "유람",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  1
+                     }
+                 ],
+        "memberships":  [
+
+                        ],
+        "learnedSkills":  [
+
+                          ],
+        "manual":  null,
+        "organization":  null,
+        "creation":  0,
+        "legacy":  0,
+        "nextPlan":  [
+                         "work",
+                         "social",
+                         "work",
+                         "rest"
+                     ],
+        "quarterStory":  {
+                             "tick":  32,
+                             "actionId":  "work",
+                             "careerId":  "farmer",
+                             "mask":  1,
+                             "outlook":  "steady",
+                             "boost":  1,
+                             "lines":  [
+                                           "지난달에 얻은 재료가 예상과 달라 새 방도를 찾아야 했다. 마무리한 물건의 질을 다시 확인한 뒤에야 장부를 덮었다."
+                                       ],
+                             "storyFocus":  "지난달에 얻은 재료가 예상과 달라 새 방도를 찾아야 했다"
+                         },
+        "latestPersonalStory":  "지난달에 얻은 재료가 예상과 달라 새 방도를 찾아야 했다. 마무리한 물건의 질을 다시 확인한 뒤에야 장부를 덮었다.",
+        "storyMemory":  [
+                            "rumor:manual:4",
+                            "scene:work:10",
+                            "coda:work:2"
+                        ],
+        "storyHashes":  [
+                            332225958
+                        ],
+        "storyThreads":  [
+                             {
+                                 "id":  "wayreturn",
+                                 "dueTick":  42,
+                                 "starterChoice":  "deliver"
+                             }
+                         ],
+        "rumors":  [
+                       {
+                           "id":  "rumor-32-manual",
+                           "kind":  "manual",
+                           "place":  "화산",
+                           "text":  "화산 인근의 늙은 책장수가 청계문의 옛 검보를 찾는 이를 봤다고 했다.",
+                           "heardTick":  32,
+                           "expiresTick":  56,
+                           "status":  "heard"
+                       }
+                   ],
+        "targetRumorId":  null,
+        "innerReserve":  100,
+        "combat":  null,
+        "lastCombat":  null,
+        "combatResultPending":  false,
+        "teachingPermits":  [
+                                "public"
+                            ],
+        "teachingSource":  "public",
+        "forgottenArt":  null,
+        "independentSect":  null,
+        "sectRelations":  {
+
+                          },
+        "pendingEvent":  null,
+        "eventQueue":  [
+
+                       ],
+        "lastCommit":  "32:waybill:0",
+        "resolved":  [
+                         "32:waybill:0"
+                     ],
+        "eventCounts":  {
+                            "waybill":  1
+                        },
+        "eventLast":  {
+                          "waybill":  32
+                      },
+        "lastEventTick":  32,
+        "logs":  [
+                     {
+                         "age":  0,
+                         "q":  0,
+                         "year":  112,
+                         "month":  1,
+                         "tick":  0,
+                         "type":  "출생",
+                         "text":  "대연 승평 112년, 화산의 농가에서 조소연의 삶이 시작되었다."
+                     },
+                     {
+                         "age":  3,
+                         "q":  0,
+                         "year":  115,
+                         "month":  1,
+                         "tick":  12,
+                         "type":  "유년",
+                         "text":  "골목의 아이들과 어울리며 세상의 말을 배웠다."
+                     },
+                     {
+                         "age":  7,
+                         "q":  0,
+                         "year":  119,
+                         "month":  1,
+                         "tick":  28,
+                         "type":  "유년",
+                         "text":  "글과 숫자를 익히며 장터와 강호의 이야기를 들었다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "유년",
+                         "text":  "여덟 살의 봄. 이제 사계절의 일을 직접 정할 수 있다. 무공을 배우지 않는 삶도 온전한 선택이다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "사건",
+                         "text":  "봉인된 운송 장부 — 선택을 기다린다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "선택",
+                         "text":  "봉인된 운송 장부: 본래의 수취인에게 장부를 돌려준다. 약속된 주인을 찾아 봉인한 장부를 돌려보냈다. 글자보다 무거운 약속이 남았다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "소문",
+                         "text":  "화산 인근의 늙은 책장수가 청계문의 옛 검보를 찾는 이를 봤다고 했다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "발자취",
+                         "text":  "지난달에 얻은 재료가 예상과 달라 새 방도를 찾아야 했다. 마무리한 물건의 질을 다시 확인한 뒤에야 장부를 덮었다."
+                     }
+                 ],
+        "choices":  [
+                        {
+                            "tick":  32,
+                            "age":  8,
+                            "q":  0,
+                            "event":  "waybill",
+                            "choice":  "deliver",
+                            "label":  "본래의 수취인에게 장부를 돌려준다"
+                        }
+                    ],
+        "milestones":  [
+
+                       ],
+        "statsAt60":  null,
+        "annualIncome":  0,
+        "annualExpense":  0,
+        "lastYear":  null,
+        "world":  {
+                      "dynasty":  "대연",
+                      "era":  "승평",
+                      "climate":  "평년",
+                      "unrest":  0,
+                      "market":  1,
+                      "sects":  [
+                                    {
+                                        "id":  "namgung",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "huashan",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "shaolin",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "wudang",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "gaebang",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "heuksa",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "demon",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "blood",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    }
+                                ]
+                  },
+        "autoRepeat":  true,
+        "autoSave":  true,
+        "notifyEvents":  true,
+        "sound":  false,
+        "music":  false,
+        "volume":  35,
+        "aptitude":  {
+                         "body":  47,
+                         "mind":  40,
+                         "social":  33
+                     },
+        "birthSupport":  0.05,
+        "birthPlace":  "화산"
+    },
+    {
+        "version":  "0.3.2",
+        "seed":  "v032-pending",
+        "rngVersion":  1,
+        "tick":  32,
+        "age":  8,
+        "q":  0,
+        "p":  0,
+        "speed":  1,
+        "playing":  false,
+        "alive":  true,
+        "started":  true,
+        "givenName":  "청운",
+        "surname":  "왕",
+        "birthYear":  121,
+        "location":  "무당산",
+        "originId":  "merchant",
+        "lineage":  "민간",
+        "clanId":  null,
+        "birthParentIds":  [
+                               "father",
+                               "mother"
+                           ],
+        "guardianId":  "mother",
+        "mentorId":  null,
+        "sectId":  null,
+        "discipleStatus":  "없음",
+        "officeId":  null,
+        "transmission":  false,
+        "successorFlag":  false,
+        "career":  "merchant",
+        "careerXP":  {
+
+                     },
+        "inner":  0,
+        "swordXP":  0,
+        "operationXP":  0,
+        "methodXP":  0,
+        "knowledgeXP":  35,
+        "rank":  0,
+        "merit":  0,
+        "support":  0,
+        "trust":  25,
+        "method":  {
+                       "id":  "basic",
+                       "name":  "기초 토납법",
+                       "principle":  "중정",
+                       "quality":  1
+                   },
+        "health":  98,
+        "injury":  0,
+        "fatigue":  0,
+        "happiness":  63,
+        "money":  30,
+        "debt":  0,
+        "reputation":  0,
+        "ethics":  0,
+        "plan":  [
+                     "work",
+                     "social",
+                     "work",
+                     "rest"
+                 ],
+        "targetSect":  "gaebang",
+        "travelTarget":  null,
+        "repeatYears":  0,
+        "goal":  "none",
+        "goalStart":  8,
+        "spouseId":  null,
+        "childIds":  [
+
+                     ],
+        "npcs":  [
+                     {
+                         "id":  "father",
+                         "name":  "왕정호",
+                         "age":  36,
+                         "birthYear":  93,
+                         "role":  "부친",
+                         "affinity":  68,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가족",
+                         "skill":  10,
+                         "married":  true,
+                         "office":  "없음",
+                         "portrait":  0,
+                         "spouseId":  "mother"
+                     },
+                     {
+                         "id":  "mother",
+                         "name":  "윤소정",
+                         "age":  33,
+                         "birthYear":  96,
+                         "role":  "모친",
+                         "affinity":  68,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가족",
+                         "skill":  10,
+                         "married":  true,
+                         "office":  "없음",
+                         "portrait":  0,
+                         "spouseId":  "father"
+                     },
+                     {
+                         "id":  "peer-0",
+                         "name":  "백설",
+                         "age":  9,
+                         "birthYear":  120,
+                         "role":  "지인",
+                         "affinity":  59,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "유람",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  2
+                     },
+                     {
+                         "id":  "peer-1",
+                         "name":  "당연",
+                         "age":  10,
+                         "birthYear":  119,
+                         "role":  "지인",
+                         "affinity":  51,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "유람",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  3
+                     },
+                     {
+                         "id":  "peer-2",
+                         "name":  "유소하",
+                         "age":  11,
+                         "birthYear":  118,
+                         "role":  "지인",
+                         "affinity":  67,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "수련",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  0
+                     },
+                     {
+                         "id":  "peer-3",
+                         "name":  "송운",
+                         "age":  12,
+                         "birthYear":  117,
+                         "role":  "지인",
+                         "affinity":  47,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  1
+                     },
+                     {
+                         "id":  "peer-4",
+                         "name":  "송설",
+                         "age":  27,
+                         "birthYear":  102,
+                         "role":  "지인",
+                         "affinity":  47,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "수련",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  2
+                     },
+                     {
+                         "id":  "peer-5",
+                         "name":  "서청",
+                         "age":  28,
+                         "birthYear":  101,
+                         "role":  "지인",
+                         "affinity":  54,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "유람",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  3
+                     },
+                     {
+                         "id":  "peer-6",
+                         "name":  "한진",
+                         "age":  29,
+                         "birthYear":  100,
+                         "role":  "지인",
+                         "affinity":  62,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가족",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  0
+                     },
+                     {
+                         "id":  "peer-7",
+                         "name":  "한청",
+                         "age":  30,
+                         "birthYear":  99,
+                         "role":  "지인",
+                         "affinity":  56,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "수련",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  1
+                     }
+                 ],
+        "memberships":  [
+
+                        ],
+        "learnedSkills":  [
+
+                          ],
+        "manual":  null,
+        "organization":  null,
+        "creation":  0,
+        "legacy":  0,
+        "nextPlan":  [
+                         "work",
+                         "social",
+                         "work",
+                         "rest"
+                     ],
+        "quarterStory":  null,
+        "latestPersonalStory":  "",
+        "storyMemory":  [
+
+                        ],
+        "storyHashes":  [
+
+                        ],
+        "storyThreads":  [
+
+                         ],
+        "rumors":  [
+
+                   ],
+        "targetRumorId":  null,
+        "innerReserve":  100,
+        "combat":  null,
+        "lastCombat":  null,
+        "combatResultPending":  false,
+        "teachingPermits":  [
+                                "public"
+                            ],
+        "teachingSource":  "public",
+        "forgottenArt":  null,
+        "independentSect":  null,
+        "sectRelations":  {
+
+                          },
+        "pendingEvent":  {
+                             "id":  "inkseal",
+                             "context":  {
+
+                                         },
+                             "uid":  "32:inkseal:0",
+                             "age":  8,
+                             "q":  0
+                         },
+        "eventQueue":  [
+
+                       ],
+        "lastCommit":  null,
+        "resolved":  [
+
+                     ],
+        "eventCounts":  {
+
+                        },
+        "eventLast":  {
+
+                      },
+        "lastEventTick":  32,
+        "logs":  [
+                     {
+                         "age":  0,
+                         "q":  0,
+                         "year":  121,
+                         "month":  1,
+                         "tick":  0,
+                         "type":  "출생",
+                         "text":  "대연 승평 121년, 무당산의 상인 가문에서 왕청운의 삶이 시작되었다."
+                     },
+                     {
+                         "age":  3,
+                         "q":  0,
+                         "year":  124,
+                         "month":  1,
+                         "tick":  12,
+                         "type":  "유년",
+                         "text":  "골목의 아이들과 어울리며 세상의 말을 배웠다."
+                     },
+                     {
+                         "age":  7,
+                         "q":  0,
+                         "year":  128,
+                         "month":  1,
+                         "tick":  28,
+                         "type":  "유년",
+                         "text":  "글과 숫자를 익히며 장터와 강호의 이야기를 들었다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  129,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "유년",
+                         "text":  "여덟 살의 봄. 이제 사계절의 일을 직접 정할 수 있다. 무공을 배우지 않는 삶도 온전한 선택이다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  129,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "사건",
+                         "text":  "먹빛 아래의 이름 — 선택을 기다린다."
+                     }
+                 ],
+        "choices":  [
+
+                    ],
+        "milestones":  [
+
+                       ],
+        "statsAt60":  null,
+        "annualIncome":  0,
+        "annualExpense":  0,
+        "lastYear":  null,
+        "world":  {
+                      "dynasty":  "대연",
+                      "era":  "승평",
+                      "climate":  "평년",
+                      "unrest":  0,
+                      "market":  1,
+                      "sects":  [
+                                    {
+                                        "id":  "namgung",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "huashan",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "shaolin",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "wudang",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "gaebang",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "heuksa",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "demon",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "blood",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    }
+                                ]
+                  },
+        "autoRepeat":  true,
+        "autoSave":  true,
+        "notifyEvents":  true,
+        "sound":  false,
+        "music":  false,
+        "volume":  35,
+        "aptitude":  {
+                         "body":  73,
+                         "mind":  53,
+                         "social":  40
+                     },
+        "birthSupport":  0.1,
+        "birthPlace":  "무당산"
+    },
+    {
+        "version":  "0.3.2",
+        "seed":  "v032-combat",
+        "rngVersion":  1,
+        "tick":  32,
+        "age":  8,
+        "q":  0,
+        "p":  0,
+        "speed":  1,
+        "playing":  false,
+        "alive":  true,
+        "started":  true,
+        "givenName":  "하린",
+        "surname":  "장",
+        "birthYear":  112,
+        "location":  "서령",
+        "originId":  "martial",
+        "lineage":  "민간",
+        "clanId":  null,
+        "birthParentIds":  [
+                               "father",
+                               "mother"
+                           ],
+        "guardianId":  "mother",
+        "mentorId":  null,
+        "sectId":  null,
+        "discipleStatus":  "없음",
+        "officeId":  null,
+        "transmission":  false,
+        "successorFlag":  false,
+        "career":  "farmer",
+        "careerXP":  {
+
+                     },
+        "inner":  0,
+        "swordXP":  0,
+        "operationXP":  0,
+        "methodXP":  0,
+        "knowledgeXP":  35,
+        "rank":  0,
+        "merit":  0,
+        "support":  0,
+        "trust":  25,
+        "method":  {
+                       "id":  "basic",
+                       "name":  "기초 토납법",
+                       "principle":  "중정",
+                       "quality":  1
+                   },
+        "health":  98,
+        "injury":  0,
+        "fatigue":  0,
+        "happiness":  62,
+        "money":  18,
+        "debt":  0,
+        "reputation":  0,
+        "ethics":  0,
+        "plan":  [
+                     "work",
+                     "social",
+                     "work",
+                     "rest"
+                 ],
+        "targetSect":  "gaebang",
+        "travelTarget":  null,
+        "repeatYears":  0,
+        "goal":  "none",
+        "goalStart":  8,
+        "spouseId":  null,
+        "childIds":  [
+
+                     ],
+        "npcs":  [
+                     {
+                         "id":  "father",
+                         "name":  "장정호",
+                         "age":  36,
+                         "birthYear":  84,
+                         "role":  "부친",
+                         "affinity":  67,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  true,
+                         "office":  "없음",
+                         "portrait":  0,
+                         "spouseId":  "mother"
+                     },
+                     {
+                         "id":  "mother",
+                         "name":  "윤소정",
+                         "age":  33,
+                         "birthYear":  87,
+                         "role":  "모친",
+                         "affinity":  67,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  true,
+                         "office":  "없음",
+                         "portrait":  0,
+                         "spouseId":  "father"
+                     },
+                     {
+                         "id":  "peer-0",
+                         "name":  "임운",
+                         "age":  9,
+                         "birthYear":  111,
+                         "role":  "지인",
+                         "affinity":  67,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가족",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  2
+                     },
+                     {
+                         "id":  "peer-1",
+                         "name":  "백청",
+                         "age":  10,
+                         "birthYear":  110,
+                         "role":  "지인",
+                         "affinity":  56,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "수련",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  3
+                     },
+                     {
+                         "id":  "peer-2",
+                         "name":  "송우",
+                         "age":  11,
+                         "birthYear":  109,
+                         "role":  "지인",
+                         "affinity":  58,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  0
+                     },
+                     {
+                         "id":  "peer-3",
+                         "name":  "서청",
+                         "age":  12,
+                         "birthYear":  108,
+                         "role":  "지인",
+                         "affinity":  45,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  1
+                     },
+                     {
+                         "id":  "peer-4",
+                         "name":  "서진",
+                         "age":  27,
+                         "birthYear":  93,
+                         "role":  "지인",
+                         "affinity":  54,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "수련",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  2
+                     },
+                     {
+                         "id":  "peer-5",
+                         "name":  "당청",
+                         "age":  28,
+                         "birthYear":  92,
+                         "role":  "지인",
+                         "affinity":  59,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가업",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  3
+                     },
+                     {
+                         "id":  "peer-6",
+                         "name":  "조소하",
+                         "age":  29,
+                         "birthYear":  91,
+                         "role":  "지인",
+                         "affinity":  69,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "가족",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  0
+                     },
+                     {
+                         "id":  "peer-7",
+                         "name":  "서진연",
+                         "age":  30,
+                         "birthYear":  90,
+                         "role":  "지인",
+                         "affinity":  56,
+                         "trust":  45,
+                         "alive":  true,
+                         "goal":  "유람",
+                         "skill":  10,
+                         "married":  false,
+                         "office":  "없음",
+                         "portrait":  1
+                     }
+                 ],
+        "memberships":  [
+
+                        ],
+        "learnedSkills":  [
+
+                          ],
+        "manual":  null,
+        "organization":  null,
+        "creation":  0,
+        "legacy":  0,
+        "nextPlan":  [
+                         "work",
+                         "social",
+                         "work",
+                         "rest"
+                     ],
+        "quarterStory":  null,
+        "latestPersonalStory":  "상대를 살피고 대응 방식을 고를 때다.",
+        "storyMemory":  [
+
+                        ],
+        "storyHashes":  [
+
+                        ],
+        "storyThreads":  [
+
+                         ],
+        "rumors":  [
+
+                   ],
+        "targetRumorId":  null,
+        "innerReserve":  100,
+        "combat":  {
+                       "uid":  "32:duel:0:combat",
+                       "kind":  "duel",
+                       "eventId":  "duel",
+                       "round":  0,
+                       "enemy":  {
+                                     "name":  "비무를 청한 무인",
+                                     "power":  88.19293908309191,
+                                     "weapon":  "목검",
+                                     "style":  "빈틈을 노리는 보법"
+                                 },
+                       "age":  8,
+                       "q":  0
+                   },
+        "lastCombat":  null,
+        "combatResultPending":  false,
+        "teachingPermits":  [
+                                "public"
+                            ],
+        "teachingSource":  "public",
+        "forgottenArt":  null,
+        "independentSect":  null,
+        "sectRelations":  {
+
+                          },
+        "pendingEvent":  null,
+        "eventQueue":  [
+
+                       ],
+        "lastCommit":  "32:duel:0",
+        "resolved":  [
+                         "32:duel:0"
+                     ],
+        "eventCounts":  {
+                            "duel":  1
+                        },
+        "eventLast":  {
+                          "duel":  32
+                      },
+        "lastEventTick":  32,
+        "logs":  [
+                     {
+                         "age":  0,
+                         "q":  0,
+                         "year":  112,
+                         "month":  1,
+                         "tick":  0,
+                         "type":  "출생",
+                         "text":  "대연 승평 112년, 서령의 무인 가계에서 장하린의 삶이 시작되었다."
+                     },
+                     {
+                         "age":  3,
+                         "q":  0,
+                         "year":  115,
+                         "month":  1,
+                         "tick":  12,
+                         "type":  "유년",
+                         "text":  "골목의 아이들과 어울리며 세상의 말을 배웠다."
+                     },
+                     {
+                         "age":  7,
+                         "q":  0,
+                         "year":  119,
+                         "month":  1,
+                         "tick":  28,
+                         "type":  "유년",
+                         "text":  "글과 숫자를 익히며 장터와 강호의 이야기를 들었다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "유년",
+                         "text":  "여덟 살의 봄. 이제 사계절의 일을 직접 정할 수 있다. 무공을 배우지 않는 삶도 온전한 선택이다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "사건",
+                         "text":  "비무의 초대 — 선택을 기다린다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "전투",
+                         "text":  "서로 예를 갖추고 비무장에 섰다. 생사결은 하지 않기로 했다."
+                     },
+                     {
+                         "age":  8,
+                         "q":  0,
+                         "year":  120,
+                         "month":  1,
+                         "tick":  32,
+                         "type":  "선택",
+                         "text":  "비무의 초대: 비살상 비무에 응한다. 상대를 살피고 대응 방식을 고를 때다."
+                     }
+                 ],
+        "choices":  [
+                        {
+                            "tick":  32,
+                            "age":  8,
+                            "q":  0,
+                            "event":  "duel",
+                            "choice":  "duel",
+                            "label":  "비살상 비무에 응한다"
+                        }
+                    ],
+        "milestones":  [
+
+                       ],
+        "statsAt60":  null,
+        "annualIncome":  0,
+        "annualExpense":  0,
+        "lastYear":  null,
+        "world":  {
+                      "dynasty":  "대연",
+                      "era":  "승평",
+                      "climate":  "평년",
+                      "unrest":  0,
+                      "market":  1,
+                      "sects":  [
+                                    {
+                                        "id":  "namgung",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "huashan",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "shaolin",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "wudang",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "gaebang",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "heuksa",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "demon",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    },
+                                    {
+                                        "id":  "blood",
+                                        "alive":  true,
+                                        "leaderAlive":  true
+                                    }
+                                ]
+                  },
+        "autoRepeat":  true,
+        "autoSave":  true,
+        "notifyEvents":  true,
+        "sound":  false,
+        "music":  false,
+        "volume":  35,
+        "aptitude":  {
+                         "body":  60,
+                         "mind":  0,
+                         "social":  60
+                     },
+        "birthSupport":  0.17,
+        "birthPlace":  "서령"
+    }
+]

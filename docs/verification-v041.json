@@ -1,0 +1,199 @@
+﻿{
+    "version":  "0.4.1",
+    "date":  "2026-10-22",
+    "engineSha256":  "48022261A03801DE417E7397A0D66E57C1703C8EF3DA4439EDEF724B2A720DA4",
+    "birthModelSha256":  "F47FAEC752E95AAE7AD038A114D692236450D8DEE18C9D0BC9104C3318D3D9DE",
+    "storyPoolSha256":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC",
+    "runtimeHashes":  {
+                          "feedback.css":  "B9C1795393D216FAE88D52E6B81B84BEB1A5C363BDA1AB278D5885A550F93774",
+                          "life-panels.js":  "CB853F3FB9C39E8210EF6C412AEA870CA60D93A40BEC9F0140AD72E6B5094A16",
+                          "feedback-ui.js":  "1EE0EC71C09E9EE2E87AFF5D2A9C6DD06B8F732615E41214EF7E281EC03015A4",
+                          "birth-model.js":  "F47FAEC752E95AAE7AD038A114D692236450D8DEE18C9D0BC9104C3318D3D9DE",
+                          "game.js":  "B68530F4A5BEA9D2D4C99FFC4672E0A4755A2FBFCD3D76AF72BB4ED4CD2F72FE",
+                          "engine.js":  "48022261A03801DE417E7397A0D66E57C1703C8EF3DA4439EDEF724B2A720DA4",
+                          "dev-tools.js":  "62AF12A9E4479DA3A80D32467E35254475E4C8FC97DCE11EAD659FB650B334A5",
+                          "life-panels.css":  "C28F501797D64C8B4FEFA67581176E99B562C0BDEA3B47F9B8B0328CD3380A1E",
+                          "story-pool.js":  "D0FE3BDEE14FEE84A911E499771568AE154D4B3372B337D110928F934A7326AC",
+                          "game.css":  "B8384F096604EB75227FC6E5ACFF44312ED2F941CFCBBEB381F5DEA36621E00C",
+                          "styles.css":  "F5F05A4229984D4CD68CFDAAA8CD259AD07F84702BDF70C5F0016B51122795E9",
+                          "index.html":  "006BB2B327907AF98D27F7051086A7953CCA77B07433D6BB92CBE931355A573E",
+                          "dev-tools.css":  "3F622A783B22E7B99F6AE60EFE87BEC2C1D6FBC3C2F8C061058A190CCAE24EBD"
+                      },
+    "testsPassed":  490,
+    "testsFailed":  0,
+    "baselineTests":  142,
+    "newTests":  348,
+    "layouts":  50,
+    "overflowCases":  0,
+    "standardSamples":  10008,
+    "leadershipSamples":  1152,
+    "standardViolations":  0,
+    "leadershipViolations":  0,
+    "eventDefinitions":  120,
+    "eventChoices":  268,
+    "eventChoiceFailures":  0,
+    "birthSeeds":  6000,
+    "birthCounts":  {
+                        "merchant":  1008,
+                        "martial":  721,
+                        "orphan":  1099,
+                        "farm":  1627,
+                        "craft":  1063,
+                        "noble":  482
+                    },
+    "planningTabsRead":  63,
+    "auditTabsAdded":  4,
+    "auditRows":  1427,
+    "auditCounts":  {
+                        "폐기·제외":  508,
+                        "구현·검증완료":  164,
+                        "부분구현":  405,
+                        "충돌·보류":  222,
+                        "확인불가":  12,
+                        "구현·검증부족":  18,
+                        "미구현":  95,
+                        "표시만 구현":  3,
+                        "허위 구현표기":  0
+                    },
+    "overall":  {
+                    "n":  10008,
+                    "survival60":  83.3,
+                    "deathAge":  {
+                                     "p10":  52,
+                                     "p50":  76,
+                                     "p90":  92
+                                 },
+                    "at60":  {
+                                 "n":  8337,
+                                 "inner":  {
+                                               "p50":  1.03,
+                                               "p90":  2.432,
+                                               "p99":  3.116
+                                           },
+                                 "career":  {
+                                                "p10":  3.561,
+                                                "p50":  44.51,
+                                                "p90":  76.304,
+                                                "over90":  0
+                                            },
+                                 "wealth":  {
+                                                "p10":  196.679,
+                                                "p50":  408.895,
+                                                "p90":  635.32
+                                            },
+                                 "ranks":  [
+                                               {
+                                                   "rank":  "일반인",
+                                                   "n":  1417
+                                               },
+                                               {
+                                                   "rank":  "삼류",
+                                                   "n":  492
+                                               },
+                                               {
+                                                   "rank":  "이류",
+                                                   "n":  5742
+                                               },
+                                               {
+                                                   "rank":  "일류",
+                                                   "n":  681
+                                               },
+                                               {
+                                                   "rank":  "절정",
+                                                   "n":  5
+                                               },
+                                               {
+                                                   "rank":  "초절정",
+                                                   "n":  0
+                                               },
+                                               {
+                                                   "rank":  "화경",
+                                                   "n":  0
+                                               }
+                                           ],
+                                 "leadership":  0,
+                                 "seniorInner":  {
+                                                     "n":  468,
+                                                     "p50":  2.78,
+                                                     "p90":  3.18
+                                                 }
+                             },
+                    "family":  {
+                                   "everMarriedPercent":  84.63,
+                                   "survivingSpousePercent":  28.26,
+                                   "childrenP50":  1
+                               },
+                    "transitionsPercent":  21.34,
+                    "debtAt60Percent":  1.31,
+                    "eventualLeadership":  336,
+                    "events":  {
+                                   "at60P50":  26,
+                                   "at60P90":  37,
+                                   "p50":  32,
+                                   "p90":  45
+                               },
+                    "minutes":  {
+                                    "activeP50":  13.6,
+                                    "with12secChoicesP50":  20,
+                                    "with12secChoicesP90":  24.8
+                                },
+                    "narrative":  {
+                                      "memoriesP50":  9,
+                                      "closedP50":  8,
+                                      "roots":  {
+                                                    "friend":  7090,
+                                                    "waybill":  2541,
+                                                    "oldLetter":  4630,
+                                                    "physician":  1576,
+                                                    "chain-mentor":  3780,
+                                                    "pilgrim":  2578,
+                                                    "advice":  692,
+                                                    "transmission":  4273,
+                                                    "mentorloss":  5419,
+                                                    "familydebt":  2978,
+                                                    "escort":  2828,
+                                                    "chain-village":  466,
+                                                    "training-advice":  5996,
+                                                    "bladeoath":  2384,
+                                                    "craftorder":  973,
+                                                    "sect-warning":  1641,
+                                                    "sect-life-gaebang":  967,
+                                                    "sect-life-huashan":  337,
+                                                    "sect-life-shaolin":  370,
+                                                    "trade":  808,
+                                                    "inkseal":  2267,
+                                                    "chain-guest":  1941,
+                                                    "parent":  3205,
+                                                    "business":  927,
+                                                    "first-pupil":  917,
+                                                    "masterwork":  1132,
+                                                    "sect-life-wudang":  357,
+                                                    "sect-life-blood":  824,
+                                                    "herbs":  974,
+                                                    "chain-family":  995,
+                                                    "grainbook":  1256,
+                                                    "guest":  699,
+                                                    "sect-life-heuksa":  398,
+                                                    "sect-life-demon":  818,
+                                                    "leader-dispute":  60,
+                                                    "sect-life-namgung":  360,
+                                                    "bandit":  275,
+                                                    "retired-letter":  75,
+                                                    "pupil":  953,
+                                                    "leader-heir":  13
+                                                }
+                                  },
+                    "causes":  {
+                                   "급작스러운 병환":  1267,
+                                   "노환":  8440,
+                                   "전투 중 입은 치명상":  85,
+                                   "난세의 사고":  216
+                               }
+                },
+    "limitations":  [
+                        "Ordinary hostile combat shares lethal rules.",
+                        "Additional clans are test-generation profiles; natural distribution remains unchanged.",
+                        "Individual martial XP, extended family and large NPC AI are incomplete.",
+                        "Human experience and real-device tests have not been performed."
+                    ]
+}

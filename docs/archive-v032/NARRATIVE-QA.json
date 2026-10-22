@@ -1,0 +1,238 @@
+{
+  "version": "0.3.2",
+  "events": 87,
+  "checks": [
+    {
+      "name": "17+ new story definitions, unique IDs and 8 linked pairs",
+      "pass": true
+    },
+    {
+      "name": "Two distinct story beats in a complete quarter",
+      "pass": true
+    },
+    {
+      "name": "Staged beats survive save/resume",
+      "pass": true
+    },
+    {
+      "name": "No missing rumor task repeats; unmatched search turns into exploration",
+      "pass": true
+    },
+    {
+      "name": "Wrong-place rumor pauses to request travel",
+      "pass": true
+    },
+    {
+      "name": "New story thread returns later and first choice matters",
+      "pass": true
+    },
+    {
+      "name": "Old 0.3.1 save migrates without removing existing narrative history",
+      "pass": true
+    },
+    {
+      "name": "0.3.0 migration still supported",
+      "pass": true
+    },
+    {
+      "name": "All six origins remain valid, nonmartial stays nonmartial",
+      "pass": true
+    },
+    {
+      "name": "Determinism across identical 70-year scripts",
+      "pass": true
+    },
+    {
+      "name": "Same seed, 1x vs 16x identical gameplay states",
+      "pass": true
+    },
+    {
+      "name": "Long-lived character never sees malformed narrative or reversed timestamps",
+      "pass": true
+    }
+  ],
+  "pass": 12,
+  "fail": 0,
+  "scenarios": [
+    {
+      "seed": "2776852732-2212974314",
+      "policy": "martial",
+      "age": 79,
+      "alive": false,
+      "lifeLogs": 922,
+      "sceneLines": 568,
+      "sceneUnique": 568,
+      "sceneUniquePct": 100,
+      "ledgerLines": 215,
+      "ledgerUnique": 215,
+      "eventChoices": 44,
+      "linkedReturns": 2,
+      "valid": true
+    },
+    {
+      "seed": "12441362",
+      "policy": "civil",
+      "age": 74,
+      "alive": false,
+      "lifeLogs": 775,
+      "sceneLines": 528,
+      "sceneUnique": 528,
+      "sceneUniquePct": 100,
+      "ledgerLines": 143,
+      "ledgerUnique": 143,
+      "eventChoices": 23,
+      "linkedReturns": 2,
+      "valid": true
+    },
+    {
+      "seed": "sword-07",
+      "policy": "martial",
+      "age": 81,
+      "alive": false,
+      "lifeLogs": 950,
+      "sceneLines": 584,
+      "sceneUnique": 584,
+      "sceneUniquePct": 100,
+      "ledgerLines": 221,
+      "ledgerUnique": 221,
+      "eventChoices": 47,
+      "linkedReturns": 1,
+      "valid": true
+    },
+    {
+      "seed": "explore-9",
+      "policy": "martial",
+      "age": 89,
+      "alive": false,
+      "lifeLogs": 1057,
+      "sceneLines": 648,
+      "sceneUnique": 648,
+      "sceneUniquePct": 100,
+      "ledgerLines": 245,
+      "ledgerUnique": 245,
+      "eventChoices": 49,
+      "linkedReturns": 2,
+      "valid": true
+    },
+    {
+      "seed": "craft-98",
+      "policy": "civil",
+      "age": 52,
+      "alive": false,
+      "lifeLogs": 534,
+      "sceneLines": 352,
+      "sceneUnique": 352,
+      "sceneUniquePct": 100,
+      "ledgerLines": 102,
+      "ledgerUnique": 102,
+      "eventChoices": 16,
+      "linkedReturns": 2,
+      "valid": true
+    },
+    {
+      "seed": "farming-1",
+      "policy": "civil",
+      "age": 81,
+      "alive": false,
+      "lifeLogs": 861,
+      "sceneLines": 584,
+      "sceneUnique": 584,
+      "sceneUniquePct": 100,
+      "ledgerLines": 162,
+      "ledgerUnique": 162,
+      "eventChoices": 24,
+      "linkedReturns": 3,
+      "valid": true
+    },
+    {
+      "seed": "wander-100",
+      "policy": "martial",
+      "age": 90,
+      "alive": false,
+      "lifeLogs": 1042,
+      "sceneLines": 656,
+      "sceneUnique": 656,
+      "sceneUniquePct": 100,
+      "ledgerLines": 248,
+      "ledgerUnique": 248,
+      "eventChoices": 41,
+      "linkedReturns": 0,
+      "valid": true
+    },
+    {
+      "seed": "family-1",
+      "policy": "civil",
+      "age": 78,
+      "alive": false,
+      "lifeLogs": 836,
+      "sceneLines": 560,
+      "sceneUnique": 560,
+      "sceneUniquePct": 100,
+      "ledgerLines": 155,
+      "ledgerUnique": 155,
+      "eventChoices": 25,
+      "linkedReturns": 2,
+      "valid": true
+    },
+    {
+      "seed": "road-2",
+      "policy": "martial",
+      "age": 41,
+      "alive": false,
+      "lifeLogs": 425,
+      "sceneLines": 264,
+      "sceneUnique": 264,
+      "sceneUniquePct": 100,
+      "ledgerLines": 101,
+      "ledgerUnique": 101,
+      "eventChoices": 19,
+      "linkedReturns": 1,
+      "valid": true
+    },
+    {
+      "seed": "body-3",
+      "policy": "martial",
+      "age": 85,
+      "alive": false,
+      "lifeLogs": 1004,
+      "sceneLines": 616,
+      "sceneUnique": 616,
+      "sceneUniquePct": 100,
+      "ledgerLines": 233,
+      "ledgerUnique": 233,
+      "eventChoices": 50,
+      "linkedReturns": 2,
+      "valid": true
+    },
+    {
+      "seed": "hero-11",
+      "policy": "martial",
+      "age": 51,
+      "alive": false,
+      "lifeLogs": 563,
+      "sceneLines": 344,
+      "sceneUnique": 344,
+      "sceneUniquePct": 100,
+      "ledgerLines": 131,
+      "ledgerUnique": 131,
+      "eventChoices": 28,
+      "linkedReturns": 1,
+      "valid": true
+    },
+    {
+      "seed": "roads-22",
+      "policy": "civil",
+      "age": 24,
+      "alive": false,
+      "lifeLogs": 207,
+      "sceneLines": 128,
+      "sceneUnique": 128,
+      "sceneUniquePct": 100,
+      "ledgerLines": 42,
+      "ledgerUnique": 42,
+      "eventChoices": 8,
+      "linkedReturns": 1,
+      "valid": true
+    }
+  ]
+}
